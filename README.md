@@ -1,16 +1,22 @@
 ## Hi there 👋
 
-<!--
-**JerryChen97/JerryChen97** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm **Yushao Chen**, a Ph.D. candidate at the [Perimeter Institute](https://perimeterinstitute.ca/) & [University of Waterloo](https://uwaterloo.ca/), specializing in Computational Physics.
 
-Here are some ideas to get you started:
+🔭 **Current Work:**
+- Simulating quantum spin lattice systems with Tensor Networks.
+- Quantum-hybrid algorithms R&D for vehicle routing problems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+👯 **Looking to Collaborate On:**
+- Quantum Machine Learning projects.
+- Open-source tools for quantum computing.
+
+📫 **Reach Me At:** [chenys13@outlook.com](mailto:chenys13@outlook.com)
+
+😄 **Pronouns:** They/them, He/Him
+
+---
+
+## 📊 GitHub Stats
+
+![Yushao's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JerryChen97&show_icons=true&theme=radical)
+
