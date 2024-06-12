@@ -18,5 +18,5 @@ I'm **Yushao Chen**, a Ph.D. candidate at the [Perimeter Institute](https://peri
 
 ## 📊 GitHub Stats
 
-![Yushao's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JerryChen97&show_icons=true&theme=radical&count_private=true)
+![Yushao's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JerryChen97&show_icons=true&theme=radical&count_private=true&no-cache=true)
 
