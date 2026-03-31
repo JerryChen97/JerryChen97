@@ -1,43 +1,70 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/profile-banner.svg" alt="Jerry Yushao Chen profile banner" width="100%" />
+</p>
 
-I'm **Yushao Chen**, a physicist with a Ph.D. in Physics from the [Perimeter Institute for Theoretical Physics](https://perimeterinstitute.ca/) & [University of Waterloo](https://uwaterloo.ca/), where I specialized in **Computational Physics**, specifically the numerical simulation of low-dimensional quantum many-body systems.
+<p align="center">
+  <strong>Computational Physicist | Quantum Software Developer</strong><br/>
+  Ph.D. in Physics from the <a href="https://perimeterinstitute.ca/">Perimeter Institute for Theoretical Physics</a> and the <a href="https://uwaterloo.ca/">University of Waterloo</a><br/>
+  Building scientific software at <a href="https://www.xanadu.ai/">Xanadu Quantum Technologies</a>
+</p>
 
-🎯 Currently, I work as a **Software Developer** at **[Xanadu Quantum Technologies](https://www.xanadu.ai/)**, contributing to cutting-edge developments in quantum computing.
+<p align="center">
+  <a href="mailto:chenys13@outlook.com">chenys13@outlook.com</a> |
+  Open to collaboration in quantum algorithms, numerical simulation, and scientific software |
+  Pronouns: They/Them, He/Him
+</p>
 
----
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Four Pillars</strong><br/><br/>
+      - Physics: low-dimensional quantum many-body systems<br/>
+      - Software: scientific and open-source tooling<br/>
+      - Numerics &amp; Simulation: tensor networks and computational methods<br/>
+      - Algorithms &amp; Architectures: quantum-hybrid methods and optimization workflows
+    </td>
+    <td width="50%" valign="top">
+      <strong>Tutoring and Consulting</strong><br/><br/>
+      - College-level math, physics, and computer science<br/>
+      - Graduate program application guidance<br/>
+      - Private tutoring for students and professionals
+    </td>
+  </tr>
+</table>
 
-### 🔭 What I’ve Worked On:
-- Tensor Network simulations of quantum spin lattice systems  
-- Research & development of quantum-hybrid algorithms for optimization problems (e.g., vehicle routing)
+## GitHub Pulse
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JerryChen97&theme=github_dark" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JerryChen97&theme=github" />
+    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JerryChen97&theme=github" alt="GitHub profile details for JerryChen97" />
+  </picture>
+</p>
 
-### 💡 Interests & Collaboration:
-I'm always open to collaboration on:
-- **Quantum Machine Learning** & **Quantum Algorithms**
-- **Open-source tools** for quantum computing and physics
-- **Scientific software development**
+<table>
+  <tr>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JerryChen97&theme=github_dark" />
+        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JerryChen97&theme=github" />
+        <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JerryChen97&theme=github" alt="GitHub stats for JerryChen97" />
+      </picture>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JerryChen97&theme=github_dark" />
+        <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JerryChen97&theme=github" />
+        <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JerryChen97&theme=github" alt="Top languages by repository for JerryChen97" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
----
-
-### 📚 Tutoring & Consulting
-In my spare time, I also accept:
-- **Consultation requests** on college-level Math, Physics, and Computer Science courses, or graduate program application.
-- **Private tutoring** for students or professionals looking to deepen their understanding
-
----
-
-### 📫 Get in Touch:
-Feel free to reach out:
-- 📧 [chenys13@outlook.com](mailto:chenys13@outlook.com)
-
----
-
-### 😄 Pronouns:
-They/Them • He/Him
-
----
-
-## 📊 GitHub Stats
-
-![Yushao's GitHub Stats](https://github-readme-stats.vercel.app/api?username=JerryChen97&show_icons=true&theme=radical&count_private=true&no-cache=true)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=JerryChen97&theme=react-dark" />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=JerryChen97&theme=github-compact" />
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=JerryChen97&theme=github-compact" alt="GitHub activity graph for JerryChen97" />
+  </picture>
+</p>
