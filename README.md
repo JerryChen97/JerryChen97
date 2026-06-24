@@ -10,7 +10,10 @@
 
 <p align="center">
   <a href="mailto:chenys13@outlook.com">chenys13@outlook.com</a> |
-  Open to collaboration in quantum algorithms, numerical simulation, and scientific software |
+  Open to collaboration in quantum algorithms, numerical simulation, and scientific software
+</p>
+
+<p align="center">
   Pronouns: They/Them, He/Him
 </p>
 
