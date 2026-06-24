@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Computational Physicist | Quantum Software Developer</strong><br/>
-  Ph.D. in Physics from the <a href="https://perimeterinstitute.ca/">Perimeter Institute for Theoretical Physics</a> and the <a href="https://uwaterloo.ca/">University of Waterloo</a><br/>
+  Ph.D. in Physics from <a href="https://perimeterinstitute.ca/">Perimeter Institute for Theoretical Physics</a> and <a href="https://uwaterloo.ca/">University of Waterloo</a><br/>
   Building scientific software at <a href="https://www.xanadu.ai/">Xanadu Quantum Technologies</a>
 </p>
 
