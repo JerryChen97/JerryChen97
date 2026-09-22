@@ -1,0 +1,48 @@
+name: Refresh public contribution dashboard
+
+on:
+  schedule:
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - tests/**
+      - .github/workflows/pulse.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-pulse
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'JerryChen97/JerryChen97'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Check aggregation and failure handling
+        run: python -m unittest discover -s tests -v
+      - name: Collect public activity and render dashboard
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/pulse.py
+      - name: Publish refreshed assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/pulse-light.svg assets/pulse-dark.svg data/pulse.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Refresh public contribution dashboard'
+          git push origin HEAD:main

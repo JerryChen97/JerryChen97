@@ -1,0 +1,3332 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-22",
+  "user": "JerryChen97",
+  "groups": [
+    {
+      "owner": "PennyLaneAI",
+      "commits": 313,
+      "merged": 367,
+      "reviewed": 1194,
+      "releases": 14
+    },
+    {
+      "owner": "XanaduAI",
+      "commits": 2,
+      "merged": 2,
+      "reviewed": 0,
+      "releases": 0
+    },
+    {
+      "owner": "JerryChen97",
+      "commits": 270,
+      "merged": 30,
+      "reviewed": 0,
+      "releases": 0
+    }
+  ],
+  "merged_prs": [
+    {
+      "id": 5502495567,
+      "number": 3243,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Skip decomposition rules that allocate work wires",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3243",
+      "merged_at": "2026-09-18T21:34:09Z"
+    },
+    {
+      "id": 5416875222,
+      "number": 10139,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix Pow/Pow2 eigvals branch cut on Python 3.14",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10139",
+      "merged_at": "2026-09-11T22:03:35Z"
+    },
+    {
+      "id": 4989600245,
+      "number": 191,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "Use `SpecsResources.num_wires` in tracker test",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/191",
+      "merged_at": "2026-09-10T17:45:57Z"
+    },
+    {
+      "id": 5390307009,
+      "number": 10125,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix Python 3.14 CI failures in test_composite2.py",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10125",
+      "merged_at": "2026-09-10T16:26:45Z"
+    },
+    {
+      "id": 5352624211,
+      "number": 10116,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix `QROM` under `capture`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10116",
+      "merged_at": "2026-09-08T15:56:32Z"
+    },
+    {
+      "id": 5123511434,
+      "number": 9999,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Create `ChangeOpBasis2` that subclasses `Operator2`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9999",
+      "merged_at": "2026-09-03T23:07:32Z"
+    },
+    {
+      "id": 5237652804,
+      "number": 10057,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix OutMultiplier jit issue",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10057",
+      "merged_at": "2026-08-26T18:06:35Z"
+    },
+    {
+      "id": 5206144342,
+      "number": 10039,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`Rot` resource function has full signature of positional arguments",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10039",
+      "merged_at": "2026-08-20T19:02:15Z"
+    },
+    {
+      "id": 5197281547,
+      "number": 3137,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Revert and xfail `test_ctrl_before_custom_op`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3137",
+      "merged_at": "2026-08-20T12:00:23Z"
+    },
+    {
+      "id": 5185589597,
+      "number": 10026,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix some lab tests using legacy API of global phase",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10026",
+      "merged_at": "2026-08-19T21:51:01Z"
+    },
+    {
+      "id": 5186217801,
+      "number": 10028,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix conditional MCM bug",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10028",
+      "merged_at": "2026-08-19T19:51:16Z"
+    },
+    {
+      "id": 5174407468,
+      "number": 10023,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix Operator2 canonicalize dynamic values",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10023",
+      "merged_at": "2026-08-18T21:44:07Z"
+    },
+    {
+      "id": 5173587704,
+      "number": 10022,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix sybil doctest failure after Catalyst softens AOT failures to warnings",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10022",
+      "merged_at": "2026-08-17T18:41:13Z"
+    },
+    {
+      "id": 5133230668,
+      "number": 3112,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "LLL fixes upto Pennylane dev-72",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3112",
+      "merged_at": "2026-08-14T20:50:53Z"
+    },
+    {
+      "id": 5154770814,
+      "number": 3118,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Attempt to fix the grad issue exposed by CRot",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3118",
+      "merged_at": "2026-08-14T20:18:23Z"
+    },
+    {
+      "id": 5152992520,
+      "number": 1420,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Fix `PCPhase` use `compilable_args.dim`",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1420",
+      "merged_at": "2026-08-14T17:09:52Z"
+    },
+    {
+      "id": 5091400066,
+      "number": 1415,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "fix PauliRot op2 API",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1415",
+      "merged_at": "2026-08-13T15:26:35Z"
+    },
+    {
+      "id": 5061399572,
+      "number": 9957,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix: revert `doctest: +SKIP` introduced in #9956",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9957",
+      "merged_at": "2026-08-13T15:20:40Z"
+    },
+    {
+      "id": 5001633406,
+      "number": 3075,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix/op2 as observable",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3075",
+      "merged_at": "2026-08-12T14:47:29Z"
+    },
+    {
+      "id": 5124821489,
+      "number": 3109,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix the custom op logic",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3109",
+      "merged_at": "2026-08-12T13:39:07Z"
+    },
+    {
+      "id": 5060980364,
+      "number": 9956,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Skip `qjit` doctests using op2 obs",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9956",
+      "merged_at": "2026-08-04T16:05:01Z"
+    },
+    {
+      "id": 5053978073,
+      "number": 9954,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix: rename documentation testing workflow in CI",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9954",
+      "merged_at": "2026-08-04T14:42:33Z"
+    },
+    {
+      "id": 4905903602,
+      "number": 9858,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Port `PauliZ`, `CZ`, and `CCZ` to Operator2",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9858",
+      "merged_at": "2026-08-03T20:18:16Z"
+    },
+    {
+      "id": 5031129057,
+      "number": 9941,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Port diagonal qubit unitary op2",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9941",
+      "merged_at": "2026-08-03T19:25:57Z"
+    },
+    {
+      "id": 4895782989,
+      "number": 9850,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Port `PauliY` and `CY` to `Operator2`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9850",
+      "merged_at": "2026-07-27T22:05:28Z"
+    },
+    {
+      "id": 4968781535,
+      "number": 9902,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Testing decomposition rules with capture",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9902",
+      "merged_at": "2026-07-27T20:32:07Z"
+    },
+    {
+      "id": 4952335467,
+      "number": 9898,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Improve `assert_valid` for legacy ops wrapping nested Op2",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9898",
+      "merged_at": "2026-07-27T17:20:07Z"
+    },
+    {
+      "id": 4737785124,
+      "number": 189,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "Bump min Python from 3.11 to 3.12",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/189",
+      "merged_at": "2026-07-27T16:57:25Z"
+    },
+    {
+      "id": 4737766976,
+      "number": 716,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Bump min Python 3.11 to 3.12",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/716",
+      "merged_at": "2026-07-27T15:43:29Z"
+    },
+    {
+      "id": 4797733004,
+      "number": 9756,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add `grad_recipe` and `grad_method` to `Operator2`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9756",
+      "merged_at": "2026-07-22T21:36:44Z"
+    },
+    {
+      "id": 4857724746,
+      "number": 9821,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix op2 reconstruct",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9821",
+      "merged_at": "2026-07-22T21:18:29Z"
+    },
+    {
+      "id": 4949385697,
+      "number": 1406,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Remove tests for `DisplacementEmbedding`",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1406",
+      "merged_at": "2026-07-22T18:30:48Z"
+    },
+    {
+      "id": 4727462668,
+      "number": 9715,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove Python 3.11 from Pennylane Package",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9715",
+      "merged_at": "2026-07-20T22:38:33Z"
+    },
+    {
+      "id": 4914186742,
+      "number": 1405,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "[fix] Use `base_operation.parameters` for controlled Operators",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1405",
+      "merged_at": "2026-07-18T02:24:00Z"
+    },
+    {
+      "id": 4736276912,
+      "number": 1395,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Bump min Python from 3.11 to 3.12",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1395",
+      "merged_at": "2026-07-17T23:44:28Z"
+    },
+    {
+      "id": 4728301272,
+      "number": 9716,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "remove dead py 3.9 branch",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9716",
+      "merged_at": "2026-07-17T21:39:15Z"
+    },
+    {
+      "id": 4736467098,
+      "number": 2974,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Drop Support for Python 3.11",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2974",
+      "merged_at": "2026-07-17T21:23:26Z"
+    },
+    {
+      "id": 4904727731,
+      "number": 124,
+      "repo": "PennyLaneAI/plugin-test-matrix",
+      "title": "Remove aqt, cirq, and qulacs",
+      "url": "https://github.com/PennyLaneAI/plugin-test-matrix/pull/124",
+      "merged_at": "2026-07-16T18:38:29Z"
+    },
+    {
+      "id": 4903896743,
+      "number": 3032,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix setter breaking tests",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3032",
+      "merged_at": "2026-07-16T18:03:07Z"
+    },
+    {
+      "id": 4893587897,
+      "number": 9848,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seed `test_expval` of `test_iqp_expval.py`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9848",
+      "merged_at": "2026-07-15T20:02:22Z"
+    },
+    {
+      "id": 4884471058,
+      "number": 9836,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "BREAKING CHANGE: `Operator.data` is read-only now",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9836",
+      "merged_at": "2026-07-15T18:45:47Z"
+    },
+    {
+      "id": 4885199605,
+      "number": 9840,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seed three snapshot tests",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9840",
+      "merged_at": "2026-07-15T13:56:55Z"
+    },
+    {
+      "id": 4878930869,
+      "number": 4,
+      "repo": "JerryChen97/tibo-x-telegram-tracker",
+      "title": "Update workflows to Node 24 actions",
+      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/4",
+      "merged_at": "2026-07-14T01:05:24Z"
+    },
+    {
+      "id": 4878833836,
+      "number": 3,
+      "repo": "JerryChen97/tibo-x-telegram-tracker",
+      "title": "Use conservative Telegram caption cap",
+      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/3",
+      "merged_at": "2026-07-14T00:43:14Z"
+    },
+    {
+      "id": 4878690404,
+      "number": 2,
+      "repo": "JerryChen97/tibo-x-telegram-tracker",
+      "title": "Respect Telegram photo caption limit",
+      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/2",
+      "merged_at": "2026-07-14T00:08:23Z"
+    },
+    {
+      "id": 4878590632,
+      "number": 1,
+      "repo": "JerryChen97/tibo-x-telegram-tracker",
+      "title": "Improve Telegram HTTP error reporting",
+      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/1",
+      "merged_at": "2026-07-13T23:50:11Z"
+    },
+    {
+      "id": 4778772743,
+      "number": 2984,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Remove all cudaq related content",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2984",
+      "merged_at": "2026-07-13T19:49:05Z"
+    },
+    {
+      "id": 4874081404,
+      "number": 3016,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix LLL 13 July: pop `forward_mask`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3016",
+      "merged_at": "2026-07-13T14:29:50Z"
+    },
+    {
+      "id": 4857063186,
+      "number": 9817,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove cudaq from pennylane.qjit",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9817",
+      "merged_at": "2026-07-10T20:02:37Z"
+    },
+    {
+      "id": 4839761416,
+      "number": 9795,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Clean up `resource_rep` for `PauliX/Y/Z` as `Operator2`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9795",
+      "merged_at": "2026-07-09T19:17:25Z"
+    },
+    {
+      "id": 4838384019,
+      "number": 9791,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix/apply op2 portxyz",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9791",
+      "merged_at": "2026-07-09T16:11:30Z"
+    },
+    {
+      "id": 4841665982,
+      "number": 9801,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Revert the msg regex",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9801",
+      "merged_at": "2026-07-09T00:25:29Z"
+    },
+    {
+      "id": 4839100633,
+      "number": 9794,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove legacy tests",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9794",
+      "merged_at": "2026-07-08T17:22:07Z"
+    },
+    {
+      "id": 4797982068,
+      "number": 9758,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix the ControlledOp2 issubclass ambiguity",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9758",
+      "merged_at": "2026-07-06T19:55:10Z"
+    },
+    {
+      "id": 4796288800,
+      "number": 9752,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Some typo fixes",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9752",
+      "merged_at": "2026-07-02T20:12:48Z"
+    },
+    {
+      "id": 4795532402,
+      "number": 9751,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Override",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9751",
+      "merged_at": "2026-07-02T15:36:34Z"
+    },
+    {
+      "id": 4779272901,
+      "number": 7,
+      "repo": "PennyLaneAI/sphinx-action",
+      "title": "Bump python version from 3.11 to 3.12",
+      "url": "https://github.com/PennyLaneAI/sphinx-action/pull/7",
+      "merged_at": "2026-06-30T18:05:25Z"
+    },
+    {
+      "id": 4694793151,
+      "number": 9700,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Drop Python 3.11 in all CI workflows",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9700",
+      "merged_at": "2026-06-30T14:52:53Z"
+    },
+    {
+      "id": 4736539292,
+      "number": 123,
+      "repo": "PennyLaneAI/plugin-test-matrix",
+      "title": "Bump Python 3.11 to 3.12",
+      "url": "https://github.com/PennyLaneAI/plugin-test-matrix/pull/123",
+      "merged_at": "2026-06-29T21:03:29Z"
+    },
+    {
+      "id": 4754405486,
+      "number": 9734,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[Bug Fix Release] Pin `autograd<1.9` in v0.45.1",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9734",
+      "merged_at": "2026-06-26T21:17:13Z"
+    },
+    {
+      "id": 4678013971,
+      "number": 9687,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix string `PyTree` leaves deserialized as bytes in `DatasetPyTree`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9687",
+      "merged_at": "2026-06-23T16:38:22Z"
+    },
+    {
+      "id": 4719110329,
+      "number": 9710,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Rename doctests",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9710",
+      "merged_at": "2026-06-22T20:39:54Z"
+    },
+    {
+      "id": 4718372560,
+      "number": 9709,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix changelog doctest",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9709",
+      "merged_at": "2026-06-22T17:33:08Z"
+    },
+    {
+      "id": 4677005987,
+      "number": 9683,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Operator2 `compute_decomposition`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9683",
+      "merged_at": "2026-06-19T15:52:55Z"
+    },
+    {
+      "id": 4625241059,
+      "number": 9636,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[Bugfix] Evolve composite generator autograd",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9636",
+      "merged_at": "2026-06-18T19:02:20Z"
+    },
+    {
+      "id": 4667145180,
+      "number": 1812,
+      "repo": "PennyLaneAI/demos",
+      "title": "Make BlueQubit non-executable",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1812",
+      "merged_at": "2026-06-16T20:03:31Z"
+    },
+    {
+      "id": 4666065685,
+      "number": 9674,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add attributes to `Operator2` for backwards compatibility",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9674",
+      "merged_at": "2026-06-16T18:01:16Z"
+    },
+    {
+      "id": 4498313796,
+      "number": 9519,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[CI] pytest-split uses `LeastDurationAlgorithm`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9519",
+      "merged_at": "2026-06-12T20:29:33Z"
+    },
+    {
+      "id": 4634056723,
+      "number": 9649,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix `Operator2.map_wires`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9649",
+      "merged_at": "2026-06-11T20:04:32Z"
+    },
+    {
+      "id": 4592414264,
+      "number": 9590,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[TEST] fixture: `preserve_jax_x64`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9590",
+      "merged_at": "2026-06-05T15:51:05Z"
+    },
+    {
+      "id": 4591572169,
+      "number": 9588,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seed `test_independent_parameters` in tests of finite diff",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9588",
+      "merged_at": "2026-06-05T15:50:00Z"
+    },
+    {
+      "id": 4589747344,
+      "number": 9582,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Use different seed for classical shadow in the doc",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9582",
+      "merged_at": "2026-06-04T19:07:18Z"
+    },
+    {
+      "id": 4566518973,
+      "number": 710,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Fix the incorrect, overly strict version constraint `PL==0.44` for base group in pyproject",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/710",
+      "merged_at": "2026-06-04T14:39:30Z"
+    },
+    {
+      "id": 4572731635,
+      "number": 9559,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Install CPU-only torch in docs/RTD workflows",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9559",
+      "merged_at": "2026-06-03T20:58:35Z"
+    },
+    {
+      "id": 4564086132,
+      "number": 9551,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Stop install torch gpu",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9551",
+      "merged_at": "2026-06-02T16:26:10Z"
+    },
+    {
+      "id": 4497619009,
+      "number": 9517,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Revert inflated test durations from #9497",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9517",
+      "merged_at": "2026-05-21T22:03:18Z"
+    },
+    {
+      "id": 4489328538,
+      "number": 1793,
+      "repo": "PennyLaneAI/demos",
+      "title": "simplify -> prune for two demos",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1793",
+      "merged_at": "2026-05-20T20:14:17Z"
+    },
+    {
+      "id": 4481033746,
+      "number": 1792,
+      "repo": "PennyLaneAI/demos",
+      "title": "Replace deprecated `qp.layer` with for loops",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1792",
+      "merged_at": "2026-05-20T18:17:35Z"
+    },
+    {
+      "id": 4487095341,
+      "number": 2857,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "bump PL dev12 and fix test failures",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2857",
+      "merged_at": "2026-05-20T15:56:11Z"
+    },
+    {
+      "id": 4447699340,
+      "number": 707,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "fix: pass correct wire counts in noise model tests",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/707",
+      "merged_at": "2026-05-20T14:50:39Z"
+    },
+    {
+      "id": 4455056947,
+      "number": 2848,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Update tests that were affected by Pennylane deprecation/removal v0.46",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2848",
+      "merged_at": "2026-05-19T20:45:40Z"
+    },
+    {
+      "id": 4432824360,
+      "number": 9477,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update rng_salt version to 0.46.0",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9477",
+      "merged_at": "2026-05-19T20:11:10Z"
+    },
+    {
+      "id": 4447985315,
+      "number": 9492,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix global phase issue of abstract `BasisEmbedding`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9492",
+      "merged_at": "2026-05-15T14:53:21Z"
+    },
+    {
+      "id": 4447358541,
+      "number": 2842,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Test cleanup",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2842",
+      "merged_at": "2026-05-14T20:03:49Z"
+    },
+    {
+      "id": 4447472337,
+      "number": 2844,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix/prod id removed from pl",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2844",
+      "merged_at": "2026-05-14T19:22:46Z"
+    },
+    {
+      "id": 4446963381,
+      "number": 9489,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Revert RC version pins to unconstrained dev installs",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9489",
+      "merged_at": "2026-05-14T19:16:07Z"
+    },
+    {
+      "id": 4440231611,
+      "number": 1786,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix stable build deps",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1786",
+      "merged_at": "2026-05-13T21:00:57Z"
+    },
+    {
+      "id": 4438757177,
+      "number": 1784,
+      "repo": "PennyLaneAI/demos",
+      "title": "PLC Release v0.45/0.15 `dev` -> `master` merge",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1784",
+      "merged_at": "2026-05-13T17:46:12Z"
+    },
+    {
+      "id": 4439615345,
+      "number": 1785,
+      "repo": "PennyLaneAI/demos",
+      "title": "add correct dateofmodification for two demos on dev",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1785",
+      "merged_at": "2026-05-13T17:06:29Z"
+    },
+    {
+      "id": 4438733526,
+      "number": 1783,
+      "repo": "PennyLaneAI/demos",
+      "title": "Bump constraints version 0.45",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1783",
+      "merged_at": "2026-05-13T15:57:32Z"
+    },
+    {
+      "id": 4424512864,
+      "number": 9460,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix `BasisState` equivalence in decomps under control",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9460",
+      "merged_at": "2026-05-12T19:33:07Z"
+    },
+    {
+      "id": 4421755657,
+      "number": 9455,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[v0.45 release] strip -rcX suffix from version in preparation for release",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9455",
+      "merged_at": "2026-05-11T22:00:58Z"
+    },
+    {
+      "id": 4410826499,
+      "number": 2817,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix failing tests in RC branch",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2817",
+      "merged_at": "2026-05-09T16:37:06Z"
+    },
+    {
+      "id": 4399782197,
+      "number": 9443,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Three miscs docfix",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9443",
+      "merged_at": "2026-05-07T20:14:22Z"
+    },
+    {
+      "id": 4387137663,
+      "number": 9427,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`DecompCollection` related documentation fix",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9427",
+      "merged_at": "2026-05-07T14:54:49Z"
+    },
+    {
+      "id": 4393547761,
+      "number": 9433,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "enforce rc branch to use latest  lightning 0.45.0rc and catalyst 0.15.0rc",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9433",
+      "merged_at": "2026-05-06T21:24:08Z"
+    },
+    {
+      "id": 4378854318,
+      "number": 9408,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bump dev version to 0.46",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9408",
+      "merged_at": "2026-05-04T20:07:17Z"
+    },
+    {
+      "id": 4378687796,
+      "number": 9407,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Preparation for 0.45 release candidate",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9407",
+      "merged_at": "2026-05-04T19:08:54Z"
+    },
+    {
+      "id": 4366943166,
+      "number": 122,
+      "repo": "PennyLaneAI/plugin-test-matrix",
+      "title": "Update rc v045",
+      "url": "https://github.com/PennyLaneAI/plugin-test-matrix/pull/122",
+      "merged_at": "2026-05-01T22:29:48Z"
+    },
+    {
+      "id": 4353542323,
+      "number": 9380,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update changelog with fixed PR ref",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9380",
+      "merged_at": "2026-05-01T20:37:23Z"
+    },
+    {
+      "id": 4345772754,
+      "number": 2771,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Use `qjit(capture=)` locally in tests",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2771",
+      "merged_at": "2026-04-30T18:48:46Z"
+    },
+    {
+      "id": 4345564119,
+      "number": 9375,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`qml.` -> `qp.` for multiple rst files",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9375",
+      "merged_at": "2026-04-29T14:21:07Z"
+    },
+    {
+      "id": 4195258866,
+      "number": 9250,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[Capture] Patch `pjit._infer_params_internal` for dynamic shapes type mismatch",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9250",
+      "merged_at": "2026-04-08T20:23:28Z"
+    },
+    {
+      "id": 4212374692,
+      "number": 1360,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Bump black to 26.3.1",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1360",
+      "merged_at": "2026-04-07T15:21:53Z"
+    },
+    {
+      "id": 4212253340,
+      "number": 2650,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Bump black to `26.3.1`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2650",
+      "merged_at": "2026-04-06T19:23:39Z"
+    },
+    {
+      "id": 4189362645,
+      "number": 9246,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update `_phase_shift` doc to correctly reflect functionality",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9246",
+      "merged_at": "2026-04-02T13:46:46Z"
+    },
+    {
+      "id": 4188244794,
+      "number": 2644,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "[CI] filter for v* tags in release checkout to avoid stale tags",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2644",
+      "merged_at": "2026-04-01T16:50:57Z"
+    },
+    {
+      "id": 4108123741,
+      "number": 9210,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add the missing `sign_expand_data.json` to `MANIFEST.in` and `pyproject.toml`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9210",
+      "merged_at": "2026-03-20T15:15:22Z"
+    },
+    {
+      "id": 4084219389,
+      "number": 9198,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seed classicla shadow",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9198",
+      "merged_at": "2026-03-16T19:52:39Z"
+    },
+    {
+      "id": 4066413870,
+      "number": 9179,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix: register `TargetMapper` labels for `pyzx==0.10.0` compatibility",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9179",
+      "merged_at": "2026-03-13T19:48:08Z"
+    },
+    {
+      "id": 4065401118,
+      "number": 9175,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bound `pyzx<0.10.0` in pyproject.toml",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9175",
+      "merged_at": "2026-03-12T18:24:42Z"
+    },
+    {
+      "id": 4058932834,
+      "number": 9171,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Merge 0.43.3 into main",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9171",
+      "merged_at": "2026-03-11T17:31:29Z"
+    },
+    {
+      "id": 4058532801,
+      "number": 2570,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Add missing backticks to changelog",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2570",
+      "merged_at": "2026-03-11T14:48:12Z"
+    },
+    {
+      "id": 4054235452,
+      "number": 9164,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Merge `v0.44.1` bug fix back into `main`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9164",
+      "merged_at": "2026-03-11T13:32:15Z"
+    },
+    {
+      "id": 4052527352,
+      "number": 9162,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[v0.43 Bug Fix] Pin `diastatic-malt` and add `gast` as a hard dependency on PennyLane",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9162",
+      "merged_at": "2026-03-11T01:19:42Z"
+    },
+    {
+      "id": 4046624343,
+      "number": 2558,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Workflow: master -> main",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2558",
+      "merged_at": "2026-03-10T21:11:08Z"
+    },
+    {
+      "id": 4052311513,
+      "number": 9160,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[v0.44 Bug Fix] Pin `diastatic-malt` and add `gast` as a hard dependency on PennyLane",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9160",
+      "merged_at": "2026-03-10T20:20:16Z"
+    },
+    {
+      "id": 4052857922,
+      "number": 2564,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Bump PL to dev51",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2564",
+      "merged_at": "2026-03-10T19:45:29Z"
+    },
+    {
+      "id": 4035788407,
+      "number": 9145,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add changelog for #8685",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9145",
+      "merged_at": "2026-03-09T16:50:28Z"
+    },
+    {
+      "id": 4013337351,
+      "number": 9122,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seed `test_probs.py::test_batch_size`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9122",
+      "merged_at": "2026-03-02T21:59:34Z"
+    },
+    {
+      "id": 3996446979,
+      "number": 2524,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Decouple `shots` and remove `ctx` from `QJITDevice.preprocess()`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2524",
+      "merged_at": "2026-02-27T14:42:28Z"
+    },
+    {
+      "id": 3923661002,
+      "number": 2476,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Add a fixture to pass `capture` kwarg to qjit automatically",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2476",
+      "merged_at": "2026-02-11T18:56:06Z"
+    },
+    {
+      "id": 3908435623,
+      "number": 9037,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix DQ TestSampleState",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/9037",
+      "merged_at": "2026-02-09T18:50:23Z"
+    },
+    {
+      "id": 3872722583,
+      "number": 2457,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "[Feature] Add `capture` argument to `@qjit` for local program capture control",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2457",
+      "merged_at": "2026-02-09T15:42:43Z"
+    },
+    {
+      "id": 3866926943,
+      "number": 162,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "Fix silent sign error in Evolution gate & restore Hadamard gradient support",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/162",
+      "merged_at": "2026-01-29T22:02:51Z"
+    },
+    {
+      "id": 3861540587,
+      "number": 8985,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate the `BoundTransform.transform`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8985",
+      "merged_at": "2026-01-29T14:57:50Z"
+    },
+    {
+      "id": 3861683947,
+      "number": 2440,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Use `tape_transform` to deprecate `BoundTransform.transform`.",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2440",
+      "merged_at": "2026-01-27T20:41:39Z"
+    },
+    {
+      "id": 3856875280,
+      "number": 8981,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix test classical shadow seed",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8981",
+      "merged_at": "2026-01-27T14:12:25Z"
+    },
+    {
+      "id": 3805748909,
+      "number": 8908,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bump `rng_salt` to `0.45.0`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8908",
+      "merged_at": "2026-01-26T19:59:21Z"
+    },
+    {
+      "id": 3839884759,
+      "number": 8963,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix `tests/capture/test_capture_mid_measure.py`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8963",
+      "merged_at": "2026-01-23T20:15:20Z"
+    },
+    {
+      "id": 3844766073,
+      "number": 682,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Pre-Bugfix-Release PR",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/682",
+      "merged_at": "2026-01-22T22:09:00Z"
+    },
+    {
+      "id": 3818237072,
+      "number": 8937,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Investigate and set salt for the integration test of `test_controlled_sqeuence` with torch",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8937",
+      "merged_at": "2026-01-22T21:51:56Z"
+    },
+    {
+      "id": 3844878833,
+      "number": 8971,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix/test non involutory variance multi param",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8971",
+      "merged_at": "2026-01-22T21:46:10Z"
+    },
+    {
+      "id": 3838812071,
+      "number": 8959,
+      "repo": "PennyLaneAI/pennylane",
+      "title": " Fix the finite-shot test `test_multi_wires` by standardizing its usage of tolerance",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8959",
+      "merged_at": "2026-01-22T02:17:17Z"
+    },
+    {
+      "id": 3838594239,
+      "number": 8958,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix: increase tolerance in test_complex_hamiltonian to 3σ",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8958",
+      "merged_at": "2026-01-21T21:00:32Z"
+    },
+    {
+      "id": 3835267698,
+      "number": 1664,
+      "repo": "PennyLaneAI/demos",
+      "title": "Remove the redundant `pennylane-qrack` from the `constraints-stable.txt`",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1664",
+      "merged_at": "2026-01-21T17:31:25Z"
+    },
+    {
+      "id": 3818264630,
+      "number": 8938,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bump the tolerance of `tests/devices/qubit/test_sampling.py::TestBroadcastingPRNG::test_nonsample_measure`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8938",
+      "merged_at": "2026-01-20T18:06:29Z"
+    },
+    {
+      "id": 3831011674,
+      "number": 1663,
+      "repo": "PennyLaneAI/demos",
+      "title": "Update the constraints of master to align with the dev",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1663",
+      "merged_at": "2026-01-19T21:43:43Z"
+    },
+    {
+      "id": 3817867237,
+      "number": 8933,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix QubitDensityMatrix local application bug (#8932)",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8933",
+      "merged_at": "2026-01-16T19:35:33Z"
+    },
+    {
+      "id": 3822344278,
+      "number": 8942,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix some lightning devices that were not correctly seeded",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8942",
+      "merged_at": "2026-01-16T19:20:02Z"
+    },
+    {
+      "id": 3810705517,
+      "number": 1655,
+      "repo": "PennyLaneAI/demos",
+      "title": "v0.44 `dev` -> `master` updates",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1655",
+      "merged_at": "2026-01-14T00:17:54Z"
+    },
+    {
+      "id": 3810918386,
+      "number": 1656,
+      "repo": "PennyLaneAI/demos",
+      "title": "Dev test higher qiskit ibm runtime",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1656",
+      "merged_at": "2026-01-14T00:17:16Z"
+    },
+    {
+      "id": 3810631416,
+      "number": 8925,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Merge `v0.44.0-rc0` into `master`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8925",
+      "merged_at": "2026-01-13T22:13:19Z"
+    },
+    {
+      "id": 3804735349,
+      "number": 106,
+      "repo": "PennyLaneAI/pennylane-aqt",
+      "title": "Version Bump (#103)",
+      "url": "https://github.com/PennyLaneAI/pennylane-aqt/pull/106",
+      "merged_at": "2026-01-13T20:22:05Z"
+    },
+    {
+      "id": 3805949428,
+      "number": 8909,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove unnecessary dependency in external tests CI",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8909",
+      "merged_at": "2026-01-13T19:55:36Z"
+    },
+    {
+      "id": 3809778576,
+      "number": 8917,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Re-trim the `-rc0`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8917",
+      "merged_at": "2026-01-13T17:23:28Z"
+    },
+    {
+      "id": 3748677941,
+      "number": 8789,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seed the two tests of `TestDeviceIntegration`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8789",
+      "merged_at": "2026-01-12T23:16:01Z"
+    },
+    {
+      "id": 3804805991,
+      "number": 8903,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "strip-rc-from-version",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8903",
+      "merged_at": "2026-01-12T16:58:30Z"
+    },
+    {
+      "id": 3804714726,
+      "number": 105,
+      "repo": "PennyLaneAI/pennylane-aqt",
+      "title": "Revert \"Version Bump (#103)\"",
+      "url": "https://github.com/PennyLaneAI/pennylane-aqt/pull/105",
+      "merged_at": "2026-01-12T15:04:57Z"
+    },
+    {
+      "id": 3798321511,
+      "number": 8896,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Merge `v0.44.0-docs` into `v0.44.0-rc0`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8896",
+      "merged_at": "2026-01-09T23:15:58Z"
+    },
+    {
+      "id": 3798061126,
+      "number": 8893,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Skip patch process if it is not jax 0.7.x",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8893",
+      "merged_at": "2026-01-09T19:41:19Z"
+    },
+    {
+      "id": 3794865234,
+      "number": 8886,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Re-enable support for Dynamic Shapes in PennyLane with `jax==0.7.1`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8886",
+      "merged_at": "2026-01-09T18:06:59Z"
+    },
+    {
+      "id": 3797649162,
+      "number": 8891,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix nightly and latest dependency uv install commands",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8891",
+      "merged_at": "2026-01-09T17:33:00Z"
+    },
+    {
+      "id": 3790074895,
+      "number": 8874,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Yushao docs fixing",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8874",
+      "merged_at": "2026-01-09T14:35:20Z"
+    },
+    {
+      "id": 3794192239,
+      "number": 1644,
+      "repo": "PennyLaneAI/demos",
+      "title": "QA `tutorial_how_to_use_qualtran_with_pennylane`",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1644",
+      "merged_at": "2026-01-09T14:08:10Z"
+    },
+    {
+      "id": 3786817164,
+      "number": 8864,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Correct username of release manager to tag as reviewer",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8864",
+      "merged_at": "2026-01-07T15:38:44Z"
+    },
+    {
+      "id": 3776724001,
+      "number": 8834,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix `CompilePipeline` init",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8834",
+      "merged_at": "2026-01-06T19:26:17Z"
+    },
+    {
+      "id": 3777636230,
+      "number": 117,
+      "repo": "PennyLaneAI/plugin-test-matrix",
+      "title": "bump rc versions v0.44",
+      "url": "https://github.com/PennyLaneAI/plugin-test-matrix/pull/117",
+      "merged_at": "2026-01-05T17:53:47Z"
+    },
+    {
+      "id": 3780356834,
+      "number": 8845,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bump dev version to 0.45",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8845",
+      "merged_at": "2026-01-05T16:33:16Z"
+    },
+    {
+      "id": 3761221585,
+      "number": 8820,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`CompilePipeline.extend` to handle `list`s and `CompilePipeline` objects",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8820",
+      "merged_at": "2026-01-05T16:22:49Z"
+    },
+    {
+      "id": 3780344618,
+      "number": 8844,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "v0.44 pre-release preparation",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8844",
+      "merged_at": "2026-01-05T15:31:46Z"
+    },
+    {
+      "id": 3763966623,
+      "number": 2325,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Install `graphviz` for `check-pl-compat.yaml`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2325",
+      "merged_at": "2025-12-29T15:42:02Z"
+    },
+    {
+      "id": 3758572239,
+      "number": 1629,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fixing incompatibilities from NumPy2.4",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1629",
+      "merged_at": "2025-12-23T21:58:55Z"
+    },
+    {
+      "id": 3757955333,
+      "number": 1628,
+      "repo": "PennyLaneAI/demos",
+      "title": "Unpin quimb and limit `numpy<2.4` for tensornet demos",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1628",
+      "merged_at": "2025-12-23T20:00:44Z"
+    },
+    {
+      "id": 3757787077,
+      "number": 8815,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Merge from Bug-Fixing 0.43.2",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8815",
+      "merged_at": "2025-12-23T17:47:23Z"
+    },
+    {
+      "id": 3755232791,
+      "number": 8813,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fixing NumPy 2.4 incompatibilities (PL v0.43)",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8813",
+      "merged_at": "2025-12-23T14:38:40Z"
+    },
+    {
+      "id": 3754011513,
+      "number": 8808,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix multiple incompatiblities with NumPy 2.4",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8808",
+      "merged_at": "2025-12-22T20:56:06Z"
+    },
+    {
+      "id": 3753778123,
+      "number": 8806,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Pin numpy below 2.4",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8806",
+      "merged_at": "2025-12-22T14:56:49Z"
+    },
+    {
+      "id": 3744410284,
+      "number": 1625,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix tutorial error prop",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1625",
+      "merged_at": "2025-12-19T22:18:24Z"
+    },
+    {
+      "id": 3653224465,
+      "number": 8689,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix parameter initialization for factors in factorization.py",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8689",
+      "merged_at": "2025-12-19T19:59:26Z"
+    },
+    {
+      "id": 3744256593,
+      "number": 8787,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add qml.resource.algo_error function for algorithm error calculation",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8787",
+      "merged_at": "2025-12-19T18:59:45Z"
+    },
+    {
+      "id": 3739577094,
+      "number": 8780,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Use fixed tolerance from `np.finfo` instead of  `!= 0.0`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8780",
+      "merged_at": "2025-12-17T22:52:25Z"
+    },
+    {
+      "id": 3712805973,
+      "number": 8751,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`CompilePipeline.remove`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8751",
+      "merged_at": "2025-12-11T19:03:17Z"
+    },
+    {
+      "id": 3716561851,
+      "number": 159,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "fix LLL test",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/159",
+      "merged_at": "2025-12-11T16:27:03Z"
+    },
+    {
+      "id": 3716572796,
+      "number": 675,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "fix test",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/675",
+      "merged_at": "2025-12-10T22:00:30Z"
+    },
+    {
+      "id": 3695348597,
+      "number": 8731,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Transform program dispatch all",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8731",
+      "merged_at": "2025-12-10T17:15:35Z"
+    },
+    {
+      "id": 3712878441,
+      "number": 8752,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bump torch version to 2.9.0 for GPU",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8752",
+      "merged_at": "2025-12-09T23:45:07Z"
+    },
+    {
+      "id": 3695302360,
+      "number": 8730,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fallback dispatch behavior from an error to return a container",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8730",
+      "merged_at": "2025-12-09T21:53:51Z"
+    },
+    {
+      "id": 3575387484,
+      "number": 8568,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add Python 3.14 compatibility fixes",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8568",
+      "merged_at": "2025-12-08T21:00:33Z"
+    },
+    {
+      "id": 3686452749,
+      "number": 8724,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix Doctest Ci after jax bump",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8724",
+      "merged_at": "2025-12-04T15:07:07Z"
+    },
+    {
+      "id": 3664626731,
+      "number": 8703,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add arithmetic dunders to transforms",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8703",
+      "merged_at": "2025-12-04T14:59:38Z"
+    },
+    {
+      "id": 3676826287,
+      "number": 8715,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bump jax from 0.7.0 to 0.7.1",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8715",
+      "merged_at": "2025-12-03T20:25:03Z"
+    },
+    {
+      "id": 3686426130,
+      "number": 8723,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Jax Version Compatibility Msg",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8723",
+      "merged_at": "2025-12-03T17:04:27Z"
+    },
+    {
+      "id": 3626900404,
+      "number": 8654,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[Capture] JAX patcher for capture",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8654",
+      "merged_at": "2025-12-01T16:39:29Z"
+    },
+    {
+      "id": 3676814122,
+      "number": 2249,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Update pennylane version",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2249",
+      "merged_at": "2025-12-01T16:15:46Z"
+    },
+    {
+      "id": 3663916340,
+      "number": 8701,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bump jax api hashability",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8701",
+      "merged_at": "2025-11-29T06:36:29Z"
+    },
+    {
+      "id": 3638788805,
+      "number": 2205,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Pennylane Jax patcher test: bump jax to 0.7.0",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2205",
+      "merged_at": "2025-11-21T21:05:20Z"
+    },
+    {
+      "id": 3649072688,
+      "number": 2220,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Remove pl map wires plxpr",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2220",
+      "merged_at": "2025-11-20T21:55:34Z"
+    },
+    {
+      "id": 3648963026,
+      "number": 8683,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove map wires plxpr",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8683",
+      "merged_at": "2025-11-20T21:30:56Z"
+    },
+    {
+      "id": 3613463629,
+      "number": 1294,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Add 3.14 to the wheels",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1294",
+      "merged_at": "2025-11-20T20:50:45Z"
+    },
+    {
+      "id": 3592726733,
+      "number": 8593,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix default mixed bug",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8593",
+      "merged_at": "2025-11-10T21:12:07Z"
+    },
+    {
+      "id": 3597954662,
+      "number": 8607,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "chore: merge v0.43.1 bug fix back into `main`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8607",
+      "merged_at": "2025-11-07T20:22:39Z"
+    },
+    {
+      "id": 3592926080,
+      "number": 8597,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`v0.43.1-rc0` fix: two more doc changes",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8597",
+      "merged_at": "2025-11-06T22:52:15Z"
+    },
+    {
+      "id": 3584002224,
+      "number": 8580,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix `test_qnode_probs_expval_broadcasting`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8580",
+      "merged_at": "2025-11-06T00:05:21Z"
+    },
+    {
+      "id": 3587005296,
+      "number": 2170,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "bump latest lightning deps",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2170",
+      "merged_at": "2025-11-04T18:56:50Z"
+    },
+    {
+      "id": 3571873646,
+      "number": 8565,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix `test_simple_circuit_execution`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8565",
+      "merged_at": "2025-11-03T22:07:59Z"
+    },
+    {
+      "id": 3583379811,
+      "number": 102,
+      "repo": "PennyLaneAI/pennylane-aqt",
+      "title": "fix tests regarding default config",
+      "url": "https://github.com/PennyLaneAI/pennylane-aqt/pull/102",
+      "merged_at": "2025-11-03T20:05:37Z"
+    },
+    {
+      "id": 3566563509,
+      "number": 8559,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix `test_involutory_and_noninvolutory_variance_single_param`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8559",
+      "merged_at": "2025-10-31T17:42:55Z"
+    },
+    {
+      "id": 3558224508,
+      "number": 8548,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "correct measurement class checking in `test_postselection_valid_finite_shots`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8548",
+      "merged_at": "2025-10-27T19:55:55Z"
+    },
+    {
+      "id": 3527408536,
+      "number": 8488,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix test Rademacher sampler",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8488",
+      "merged_at": "2025-10-24T19:46:59Z"
+    },
+    {
+      "id": 3533624067,
+      "number": 8502,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove redundant asserts that are too strict for `test_finite_shot_multiple_measurements`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8502",
+      "merged_at": "2025-10-23T20:22:10Z"
+    },
+    {
+      "id": 3533430602,
+      "number": 8498,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Lower the threshold for `test_simulate_one_shot_native_mcm`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8498",
+      "merged_at": "2025-10-22T19:31:19Z"
+    },
+    {
+      "id": 3541727776,
+      "number": 8524,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix the broken rendering of changelog item",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8524",
+      "merged_at": "2025-10-22T18:41:47Z"
+    },
+    {
+      "id": 3533745246,
+      "number": 8505,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove `tests/test_hermitian_edge_cases.py`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8505",
+      "merged_at": "2025-10-21T21:00:23Z"
+    },
+    {
+      "id": 3536667077,
+      "number": 1578,
+      "repo": "PennyLaneAI/demos",
+      "title": "qml.grad: argnum -> argnums",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1578",
+      "merged_at": "2025-10-21T17:27:32Z"
+    },
+    {
+      "id": 3343406049,
+      "number": 3,
+      "repo": "XanaduAI/iqpopt",
+      "title": "deprecate device shots",
+      "url": "https://github.com/XanaduAI/iqpopt/pull/3",
+      "merged_at": "2025-10-07T13:38:29Z"
+    },
+    {
+      "id": 3345588833,
+      "number": 6,
+      "repo": "XanaduAI/iqpopt",
+      "title": "Remove the static type hints extracted from PennyLane",
+      "url": "https://github.com/XanaduAI/iqpopt/pull/6",
+      "merged_at": "2025-10-07T13:35:25Z"
+    },
+    {
+      "id": 3459392603,
+      "number": 8347,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[CI] fix CI due to the updated expected mcm config",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8347",
+      "merged_at": "2025-09-29T16:08:45Z"
+    },
+    {
+      "id": 3435961181,
+      "number": 2060,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "bump to pl dev60",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2060",
+      "merged_at": "2025-09-20T16:09:45Z"
+    },
+    {
+      "id": 3431656498,
+      "number": 8304,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[TESTS] Seed horizontal cartan subalgebra",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8304",
+      "merged_at": "2025-09-19T21:13:11Z"
+    },
+    {
+      "id": 3390318108,
+      "number": 8209,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix `SpecialUnitary` Incompatibility at Torch",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8209",
+      "merged_at": "2025-09-19T18:07:19Z"
+    },
+    {
+      "id": 3411746381,
+      "number": 8265,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Test that `qml.specs` works with new decomp",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8265",
+      "merged_at": "2025-09-18T21:45:09Z"
+    },
+    {
+      "id": 3411200391,
+      "number": 8260,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`NullQubit` tests with new graph-based decomposition",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8260",
+      "merged_at": "2025-09-18T20:37:54Z"
+    },
+    {
+      "id": 3407939322,
+      "number": 8253,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`default.tensor` can preprocess with graph based decomposition system",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8253",
+      "merged_at": "2025-09-18T20:08:15Z"
+    },
+    {
+      "id": 3331879145,
+      "number": 149,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "Overload the `batch_transform` method to avoid setting shots from init",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/149",
+      "merged_at": "2025-09-18T18:52:46Z"
+    },
+    {
+      "id": 3381249731,
+      "number": 1251,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "All the Lightning devices use `preprocess.decompose` that integrates with graph-based decomposition",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1251",
+      "merged_at": "2025-09-12T15:28:56Z"
+    },
+    {
+      "id": 3398849531,
+      "number": 8225,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Enhance `preprocess.decompose` with `device_wires` and `target_gates` support",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8225",
+      "merged_at": "2025-09-11T19:43:28Z"
+    },
+    {
+      "id": 3387711041,
+      "number": 1540,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix device shots in `tutorial_xas`",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1540",
+      "merged_at": "2025-09-05T14:30:37Z"
+    },
+    {
+      "id": 3335737112,
+      "number": 655,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "create `pytest.ini` to raise PLDW as errors",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/655",
+      "merged_at": "2025-09-03T16:30:32Z"
+    },
+    {
+      "id": 3377122021,
+      "number": 656,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "A better `test_no_shots_warning`",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/656",
+      "merged_at": "2025-09-02T19:19:58Z"
+    },
+    {
+      "id": 3376081943,
+      "number": 8178,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Revert xfailed/skipped tests in unified compiler module",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8178",
+      "merged_at": "2025-09-02T15:30:25Z"
+    },
+    {
+      "id": 3372873674,
+      "number": 2015,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "bump dep versions",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/2015",
+      "merged_at": "2025-09-01T15:25:12Z"
+    },
+    {
+      "id": 3364769579,
+      "number": 8161,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "refactor capture shots information to help unsuppress dev shots PLDW",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8161",
+      "merged_at": "2025-08-29T21:53:43Z"
+    },
+    {
+      "id": 3367023414,
+      "number": 1243,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Adjust `LightningBase.eval_jaxpr` compatible with independent shots",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1243",
+      "merged_at": "2025-08-29T18:58:41Z"
+    },
+    {
+      "id": 3315573679,
+      "number": 8073,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Make `qnode.shots` Public Again",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8073",
+      "merged_at": "2025-08-26T20:26:52Z"
+    },
+    {
+      "id": 3345864709,
+      "number": 8126,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Skip custom measurement for ionq plugin",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8126",
+      "merged_at": "2025-08-26T19:58:14Z"
+    },
+    {
+      "id": 3325318608,
+      "number": 1519,
+      "repo": "PennyLaneAI/demos",
+      "title": "Deprecate device shots 2",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1519",
+      "merged_at": "2025-08-22T16:56:21Z"
+    },
+    {
+      "id": 3331767156,
+      "number": 95,
+      "repo": "PennyLaneAI/pennylane-aqt",
+      "title": "Overload the `batch_transform` to carry over the validation of no analytics",
+      "url": "https://github.com/PennyLaneAI/pennylane-aqt/pull/95",
+      "merged_at": "2025-08-21T18:53:29Z"
+    },
+    {
+      "id": 3335136144,
+      "number": 1988,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Remove `OQDDevice.shots`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1988",
+      "merged_at": "2025-08-21T16:11:57Z"
+    },
+    {
+      "id": 3335071138,
+      "number": 654,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Overload `batch_transform`",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/654",
+      "merged_at": "2025-08-21T14:24:29Z"
+    },
+    {
+      "id": 3339420291,
+      "number": 1992,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "bump PL to dev34",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1992",
+      "merged_at": "2025-08-20T22:15:07Z"
+    },
+    {
+      "id": 3330783299,
+      "number": 1985,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Bump lightning dep version",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1985",
+      "merged_at": "2025-08-19T22:13:27Z"
+    },
+    {
+      "id": 3325795641,
+      "number": 1521,
+      "repo": "PennyLaneAI/demos",
+      "title": "try udpate constraint",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1521",
+      "merged_at": "2025-08-18T13:41:10Z"
+    },
+    {
+      "id": 3281430646,
+      "number": 1952,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Replacing `device(..., shots=...)` with `set_shots`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1952",
+      "merged_at": "2025-08-15T15:31:35Z"
+    },
+    {
+      "id": 3281769775,
+      "number": 1221,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Deprecate device shots setting at init",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1221",
+      "merged_at": "2025-08-15T02:22:23Z"
+    },
+    {
+      "id": 3274438447,
+      "number": 7979,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `device(..., shots=...)` base",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7979",
+      "merged_at": "2025-08-14T20:37:52Z"
+    },
+    {
+      "id": 3301754704,
+      "number": 650,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Move `UserWarning` regarding `shots=None` to preprocess",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/650",
+      "merged_at": "2025-08-14T20:29:34Z"
+    },
+    {
+      "id": 3319314789,
+      "number": 226,
+      "repo": "PennyLaneAI/pennylane-cirq",
+      "title": "Use `set_shots` in tests",
+      "url": "https://github.com/PennyLaneAI/pennylane-cirq/pull/226",
+      "merged_at": "2025-08-14T13:58:55Z"
+    },
+    {
+      "id": 3319756647,
+      "number": 1981,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "[BUG] Fix measure from sample shot vector condition",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1981",
+      "merged_at": "2025-08-13T20:48:41Z"
+    },
+    {
+      "id": 3319403798,
+      "number": 99,
+      "repo": "PennyLaneAI/pennylane-qulacs",
+      "title": "Use `set_shots` in `tests/test_integration.py::test_expectation`",
+      "url": "https://github.com/PennyLaneAI/pennylane-qulacs/pull/99",
+      "merged_at": "2025-08-13T19:06:24Z"
+    },
+    {
+      "id": 3315420195,
+      "number": 147,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "\"deprecate\" device shots",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/147",
+      "merged_at": "2025-08-12T19:44:34Z"
+    },
+    {
+      "id": 3281840688,
+      "number": 1222,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Move MCMC validation to preprocess in `lightning.qubit`",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1222",
+      "merged_at": "2025-08-08T00:37:26Z"
+    },
+    {
+      "id": 3274645323,
+      "number": 1947,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Capture mode works with zero wires now",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1947",
+      "merged_at": "2025-08-07T21:07:37Z"
+    },
+    {
+      "id": 3297342290,
+      "number": 8032,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove execution test mapwires",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/8032",
+      "merged_at": "2025-08-06T19:38:10Z"
+    },
+    {
+      "id": 3285059238,
+      "number": 1956,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Remove unnecessary capabilities arg in `extract_backend_info`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1956",
+      "merged_at": "2025-08-04T14:19:24Z"
+    },
+    {
+      "id": 3239786177,
+      "number": 7903,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix legacy device sampling seeding issue",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7903",
+      "merged_at": "2025-07-31T22:07:59Z"
+    },
+    {
+      "id": 3274073787,
+      "number": 1945,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Error out workflow with capture enabled",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1945",
+      "merged_at": "2025-07-31T15:41:14Z"
+    },
+    {
+      "id": 3274262756,
+      "number": 7978,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Capture mode can work with zero wires",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7978",
+      "merged_at": "2025-07-30T20:23:20Z"
+    },
+    {
+      "id": 3277179907,
+      "number": 1474,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix remaining `QNode` call with `shots` kwarg",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1474",
+      "merged_at": "2025-07-30T14:50:38Z"
+    },
+    {
+      "id": 3274732161,
+      "number": 1473,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix tutorial doubly stochastic",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1473",
+      "merged_at": "2025-07-29T21:08:24Z"
+    },
+    {
+      "id": 3164200498,
+      "number": 7727,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update value of `rng_salt` to 0.42.0",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7727",
+      "merged_at": "2025-07-24T15:56:04Z"
+    },
+    {
+      "id": 3240413972,
+      "number": 7906,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate qnode call `shots=` kwarg",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7906",
+      "merged_at": "2025-07-24T00:43:24Z"
+    },
+    {
+      "id": 3253962012,
+      "number": 1460,
+      "repo": "PennyLaneAI/demos",
+      "title": "update shots in circuit calling with set_shots",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1460",
+      "merged_at": "2025-07-23T21:25:16Z"
+    },
+    {
+      "id": 3253664071,
+      "number": 1216,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Deprecate tests that have `QNode` call with shots kwarg",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1216",
+      "merged_at": "2025-07-23T20:13:23Z"
+    },
+    {
+      "id": 3254025347,
+      "number": 644,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Deprecate shots arg in qnode calls",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/644",
+      "merged_at": "2025-07-22T21:14:37Z"
+    },
+    {
+      "id": 3253773194,
+      "number": 1931,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Replace `shots=` kwarg in qnode calls wit h `set_shots`",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1931",
+      "merged_at": "2025-07-22T20:49:09Z"
+    },
+    {
+      "id": 3253070335,
+      "number": 1929,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Remove Observable",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1929",
+      "merged_at": "2025-07-22T18:34:57Z"
+    },
+    {
+      "id": 3243765433,
+      "number": 7919,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Allow `set_shots(500)`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7919",
+      "merged_at": "2025-07-22T18:01:10Z"
+    },
+    {
+      "id": 3244332974,
+      "number": 7924,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove 9 operation.booleans",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7924",
+      "merged_at": "2025-07-22T14:42:16Z"
+    },
+    {
+      "id": 3244496378,
+      "number": 7928,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove access for ``lie_closure``, ``structure_constants`` and ``center`` via ``qml.pauli``",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7928",
+      "merged_at": "2025-07-21T23:51:32Z"
+    },
+    {
+      "id": 3244479462,
+      "number": 7927,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Removing Observable",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7927",
+      "merged_at": "2025-07-21T18:35:27Z"
+    },
+    {
+      "id": 3233591859,
+      "number": 7886,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `level=none` from `construct_batch`/`get_transform_program`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7886",
+      "merged_at": "2025-07-18T14:55:02Z"
+    },
+    {
+      "id": 3240423485,
+      "number": 7907,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove `QNode.get_gradient_fn`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7907",
+      "merged_at": "2025-07-17T20:41:45Z"
+    },
+    {
+      "id": 3237184089,
+      "number": 7898,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix `get_best_diff_method`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7898",
+      "merged_at": "2025-07-17T19:29:51Z"
+    },
+    {
+      "id": 3236877611,
+      "number": 7895,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`DefaultQubitLegacy` does not duplicate legacy classical shadow algorithm now",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7895",
+      "merged_at": "2025-07-16T20:52:55Z"
+    },
+    {
+      "id": 3230030849,
+      "number": 7876,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "New set shots",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7876",
+      "merged_at": "2025-07-15T22:32:48Z"
+    },
+    {
+      "id": 3232507589,
+      "number": 7881,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bug fix/shots warning",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7881",
+      "merged_at": "2025-07-15T21:12:21Z"
+    },
+    {
+      "id": 3223237425,
+      "number": 7851,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seed `test_split_to_single_terms`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7851",
+      "merged_at": "2025-07-11T17:57:29Z"
+    },
+    {
+      "id": 3220166102,
+      "number": 1433,
+      "repo": "PennyLaneAI/demos",
+      "title": "Adjust output format in `how_to_user_qiskit1_with_pennylane`",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1433",
+      "merged_at": "2025-07-10T18:31:01Z"
+    },
+    {
+      "id": 3210079355,
+      "number": 7804,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Yushao's 0.42 QA docs fix",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7804",
+      "merged_at": "2025-07-10T14:22:47Z"
+    },
+    {
+      "id": 3118015839,
+      "number": 1784,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Set shots",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1784",
+      "merged_at": "2025-07-04T21:44:16Z"
+    },
+    {
+      "id": 3081300090,
+      "number": 7461,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update `construct_batch` to an actual multi-level internal dispatch scheme",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7461",
+      "merged_at": "2025-07-04T19:27:03Z"
+    },
+    {
+      "id": 3118031044,
+      "number": 1173,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Test `set_shots` compatibility",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1173",
+      "merged_at": "2025-07-03T15:03:44Z"
+    },
+    {
+      "id": 3189582537,
+      "number": 3,
+      "repo": "JerryChen97/solo-learn",
+      "title": "docs: Add contributor guidelines and branch protection workflow",
+      "url": "https://github.com/JerryChen97/solo-learn/pull/3",
+      "merged_at": "2025-06-30T20:05:51Z"
+    },
+    {
+      "id": 3189652395,
+      "number": 4,
+      "repo": "JerryChen97/solo-learn",
+      "title": "docs: Enforce strict branch protection for all users",
+      "url": "https://github.com/JerryChen97/solo-learn/pull/4",
+      "merged_at": "2025-06-30T20:05:43Z"
+    },
+    {
+      "id": 3189692473,
+      "number": 5,
+      "repo": "JerryChen97/solo-learn",
+      "title": "docs: Update automation notes with GitHub Copilot findings",
+      "url": "https://github.com/JerryChen97/solo-learn/pull/5",
+      "merged_at": "2025-06-30T20:05:35Z"
+    },
+    {
+      "id": 3189570613,
+      "number": 2,
+      "repo": "JerryChen97/solo-learn",
+      "title": "cleanup: Remove test protection file",
+      "url": "https://github.com/JerryChen97/solo-learn/pull/2",
+      "merged_at": "2025-06-30T19:09:07Z"
+    },
+    {
+      "id": 3189546891,
+      "number": 1,
+      "repo": "JerryChen97/solo-learn",
+      "title": "fix: Add comprehensive virtual environment patterns to .gitignore",
+      "url": "https://github.com/JerryChen97/solo-learn/pull/1",
+      "merged_at": "2025-06-30T19:00:42Z"
+    },
+    {
+      "id": 3158195862,
+      "number": 7713,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix `tests/devices/test_preprocess.py::TestMeasurementsFromCountsOrSa…`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7713",
+      "merged_at": "2025-06-19T13:42:33Z"
+    },
+    {
+      "id": 3125106637,
+      "number": 7627,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Create `QNode._shots` to support `shots` updates",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7627",
+      "merged_at": "2025-06-18T21:35:23Z"
+    },
+    {
+      "id": 3131171882,
+      "number": 7639,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Seeded both devices in `tests/devices/test_lightning_qubit.py::test_finite_shots`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7639",
+      "merged_at": "2025-06-10T14:53:28Z"
+    },
+    {
+      "id": 3122062457,
+      "number": 7615,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "No more hard restriction on `StatePrep` normalization",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7615",
+      "merged_at": "2025-06-06T19:54:21Z"
+    },
+    {
+      "id": 3124931423,
+      "number": 7626,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "No more NP2 `xfail`'s for `OpenFermion` tests",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7626",
+      "merged_at": "2025-06-06T16:44:25Z"
+    },
+    {
+      "id": 3057819413,
+      "number": 7415,
+      "repo": "PennyLaneAI/pennylane",
+      "title": " Replace documentation `device(..., shots=420)` w/  `set_shots`  transform",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7415",
+      "merged_at": "2025-06-02T19:22:54Z"
+    },
+    {
+      "id": 3094682229,
+      "number": 7500,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Raise `UserWarning` for `set_shots` confusing usage",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7500",
+      "merged_at": "2025-05-29T18:39:34Z"
+    },
+    {
+      "id": 3100630221,
+      "number": 7529,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Pin `mitiq!=0.45.0`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7529",
+      "merged_at": "2025-05-29T16:40:39Z"
+    },
+    {
+      "id": 3031652306,
+      "number": 7358,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Make the pipeline compatible with shots decoupling",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7358",
+      "merged_at": "2025-05-26T15:47:59Z"
+    },
+    {
+      "id": 3080576814,
+      "number": 7458,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[CLONE] Add process_density_matrix for classical shadow",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7458",
+      "merged_at": "2025-05-22T21:03:56Z"
+    },
+    {
+      "id": 3083395617,
+      "number": 7465,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "De-indenting to save changelog highlight?",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7465",
+      "merged_at": "2025-05-22T14:32:26Z"
+    },
+    {
+      "id": 3025302019,
+      "number": 7337,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`qml.set_shots` is available",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7337",
+      "merged_at": "2025-05-21T19:57:57Z"
+    },
+    {
+      "id": 3063025404,
+      "number": 7427,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix IsingXY doc `\\theta` -> `\\phi`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7427",
+      "merged_at": "2025-05-14T14:38:58Z"
+    },
+    {
+      "id": 3025890840,
+      "number": 7341,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix unnecessary finite-shot simulations in debugging tests",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7341",
+      "merged_at": "2025-05-09T15:31:48Z"
+    },
+    {
+      "id": 3040496889,
+      "number": 7384,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[BUG] `default.mixed` np to math",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7384",
+      "merged_at": "2025-05-07T19:10:20Z"
+    },
+    {
+      "id": 3036771012,
+      "number": 7374,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "spell check: `tranform` -> `transform`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7374",
+      "merged_at": "2025-05-03T03:01:18Z"
+    },
+    {
+      "id": 2996741437,
+      "number": 7285,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix sparse `BlockEncode` bug",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7285",
+      "merged_at": "2025-04-25T18:54:02Z"
+    },
+    {
+      "id": 3011641152,
+      "number": 7322,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove `MeasurementProcess.return_type` and `ObservableReturnTypes(Enum)`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7322",
+      "merged_at": "2025-04-25T15:43:37Z"
+    },
+    {
+      "id": 3011360985,
+      "number": 7320,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove keras layer",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7320",
+      "merged_at": "2025-04-24T15:07:02Z"
+    },
+    {
+      "id": 3014423394,
+      "number": 7329,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Convert finite shots to analytic wrapped mocker in `tests/transform/test_defer_measurement.py`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7329",
+      "merged_at": "2025-04-23T23:23:18Z"
+    },
+    {
+      "id": 3011660206,
+      "number": 7323,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `get_gradient_fn`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7323",
+      "merged_at": "2025-04-23T18:50:32Z"
+    },
+    {
+      "id": 2993845356,
+      "number": 7280,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix single-batch issue of `StatePrep` in `default.mixed`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7280",
+      "merged_at": "2025-04-21T17:46:59Z"
+    },
+    {
+      "id": 3000301908,
+      "number": 87,
+      "repo": "PennyLaneAI/pennylane-aqt",
+      "title": "Update requirements.txt",
+      "url": "https://github.com/PennyLaneAI/pennylane-aqt/pull/87",
+      "merged_at": "2025-04-16T17:53:28Z"
+    },
+    {
+      "id": 2986631551,
+      "number": 1347,
+      "repo": "PennyLaneAI/demos",
+      "title": "Try rescale factor",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1347",
+      "merged_at": "2025-04-11T15:25:14Z"
+    },
+    {
+      "id": 2986915995,
+      "number": 7258,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Yushao qa docfix",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7258",
+      "merged_at": "2025-04-11T14:26:24Z"
+    },
+    {
+      "id": 2986814103,
+      "number": 7256,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix noise model `MeasurementProcess` name",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7256",
+      "merged_at": "2025-04-11T14:05:57Z"
+    },
+    {
+      "id": 2964406340,
+      "number": 7182,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix the wrongly placed op wires.",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7182",
+      "merged_at": "2025-04-03T09:00:57Z"
+    },
+    {
+      "id": 2943836095,
+      "number": 7140,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix misc issues involving sparse related dispatches",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7140",
+      "merged_at": "2025-04-02T20:48:05Z"
+    },
+    {
+      "id": 2964581294,
+      "number": 7187,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Docfix qubit unitary",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7187",
+      "merged_at": "2025-04-02T15:06:26Z"
+    },
+    {
+      "id": 2946650330,
+      "number": 7147,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[BUG] Fix `qml.matrix` apply on sparse operators",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7147",
+      "merged_at": "2025-04-01T21:31:37Z"
+    },
+    {
+      "id": 2936487953,
+      "number": 1334,
+      "repo": "PennyLaneAI/demos",
+      "title": "Update `tutorial_qnn_module_tf` after the deprecation of `qml.qnn.KerasLayer`",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1334",
+      "merged_at": "2025-04-01T14:08:39Z"
+    },
+    {
+      "id": 2943803078,
+      "number": 7139,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix the issue that ctrl a sparse QubitUnitary doesn't work",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7139",
+      "merged_at": "2025-03-24T19:42:21Z"
+    },
+    {
+      "id": 2926046364,
+      "number": 7097,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `KerasLayer`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7097",
+      "merged_at": "2025-03-19T16:32:28Z"
+    },
+    {
+      "id": 2900766079,
+      "number": 1323,
+      "repo": "PennyLaneAI/demos",
+      "title": "Upgrade scipy",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1323",
+      "merged_at": "2025-03-13T19:56:18Z"
+    },
+    {
+      "id": 2914921057,
+      "number": 7076,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Ensure probability normalization (sum to one) while using `reference.qubit`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7076",
+      "merged_at": "2025-03-12T21:00:00Z"
+    },
+    {
+      "id": 2748264635,
+      "number": 1284,
+      "repo": "PennyLaneAI/demos",
+      "title": "Update `tutorial_noisy_circuits.py` to port `default.mixed` free of legacy interfaces",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1284",
+      "merged_at": "2025-03-12T13:35:37Z"
+    },
+    {
+      "id": 2910967083,
+      "number": 7071,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[CI] Enforce matrix positivity in Denman Beavers iterations tests",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7071",
+      "merged_at": "2025-03-11T21:14:17Z"
+    },
+    {
+      "id": 2723829832,
+      "number": 6684,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Integration into the current PL device ecosys",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6684",
+      "merged_at": "2025-03-11T15:00:15Z"
+    },
+    {
+      "id": 2852022339,
+      "number": 6963,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`BlockEncode` accepts sparse matrices as input",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6963",
+      "merged_at": "2025-03-10T19:35:39Z"
+    },
+    {
+      "id": 2903218054,
+      "number": 7055,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Bruteforce sparse matrix power method as alternative",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7055",
+      "merged_at": "2025-03-10T14:13:48Z"
+    },
+    {
+      "id": 2861684607,
+      "number": 6976,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add a helper in `math/quantum` to calculate the matrix square root of sparse, hermitian matrices",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6976",
+      "merged_at": "2025-03-05T22:22:35Z"
+    },
+    {
+      "id": 2843903194,
+      "number": 6947,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Dispatch more `scipy.sparse` functionalities",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6947",
+      "merged_at": "2025-03-05T18:24:44Z"
+    },
+    {
+      "id": 2810341626,
+      "number": 6883,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "End-To-End Sparsity Support on `default.qubit`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6883",
+      "merged_at": "2025-03-03T20:32:02Z"
+    },
+    {
+      "id": 2867046452,
+      "number": 6986,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Reimplement qubit unitary",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6986",
+      "merged_at": "2025-02-26T14:26:24Z"
+    },
+    {
+      "id": 2879408433,
+      "number": 7006,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update `tests-gpu.yml` file ",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/7006",
+      "merged_at": "2025-02-25T20:09:34Z"
+    },
+    {
+      "id": 2869917885,
+      "number": 6994,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Implement `Controlled.sparse_matrix`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6994",
+      "merged_at": "2025-02-21T22:45:28Z"
+    },
+    {
+      "id": 2852237354,
+      "number": 6965,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Make `qml.SWAP` sparse",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6965",
+      "merged_at": "2025-02-14T15:37:08Z"
+    },
+    {
+      "id": 2813917215,
+      "number": 6889,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`QubitUnitary` accepts sparse matrices as inputs",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6889",
+      "merged_at": "2025-02-13T14:02:25Z"
+    },
+    {
+      "id": 2839102400,
+      "number": 6940,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fixing dismatch between dense `matrix()` and sparse repr `sparse_matrix()` of GlobalPhase",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6940",
+      "merged_at": "2025-02-11T19:16:47Z"
+    },
+    {
+      "id": 2831428312,
+      "number": 6926,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix double QubitUnitary bug from Catalyst",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6926",
+      "merged_at": "2025-02-06T16:37:08Z"
+    },
+    {
+      "id": 2800112675,
+      "number": 6863,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`StatePrep` accepts sparse matrices as input",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6863",
+      "merged_at": "2025-02-03T23:10:31Z"
+    },
+    {
+      "id": 2808014788,
+      "number": 1310,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix controlled qubit unitary usage",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1310",
+      "merged_at": "2025-02-03T21:58:38Z"
+    },
+    {
+      "id": 2807997141,
+      "number": 1047,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "update usages of ControlledQubitUnitary in tests",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1047",
+      "merged_at": "2025-02-03T20:23:36Z"
+    },
+    {
+      "id": 2823817600,
+      "number": 6910,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix return type call in noise conditionals",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6910",
+      "merged_at": "2025-02-03T15:18:23Z"
+    },
+    {
+      "id": 2808027809,
+      "number": 1483,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Adjust the usage of ControlledQubitUnitary",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1483",
+      "merged_at": "2025-02-01T10:06:17Z"
+    },
+    {
+      "id": 2791040120,
+      "number": 6839,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `control_wires` in `ControlledQubitUnitary`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6839",
+      "merged_at": "2025-01-31T23:16:11Z"
+    },
+    {
+      "id": 2816709558,
+      "number": 6895,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Clean up `MultiControlledX` docstring",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6895",
+      "merged_at": "2025-01-30T22:15:39Z"
+    },
+    {
+      "id": 2821494251,
+      "number": 6906,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix return type",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6906",
+      "merged_at": "2025-01-30T20:10:32Z"
+    },
+    {
+      "id": 2791131270,
+      "number": 6841,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `MeasurementProcess.return_type` and `ObservableReturnTypes`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6841",
+      "merged_at": "2025-01-30T16:08:33Z"
+    },
+    {
+      "id": 2791123662,
+      "number": 6840,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `QubitUnitary` as a valid input to `ControlledQubitUnitary`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6840",
+      "merged_at": "2025-01-29T20:25:11Z"
+    },
+    {
+      "id": 2803348980,
+      "number": 1044,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Replace the type checking using property `return_type` with direct is…",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1044",
+      "merged_at": "2025-01-27T18:38:30Z"
+    },
+    {
+      "id": 2800067286,
+      "number": 6862,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix the deprecated usage of `MultiControlledX` in labs",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6862",
+      "merged_at": "2025-01-21T18:48:23Z"
+    },
+    {
+      "id": 2790250183,
+      "number": 6835,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove string support for `control_values` of `MutliControlledX`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6835",
+      "merged_at": "2025-01-17T23:15:33Z"
+    },
+    {
+      "id": 2788358826,
+      "number": 6832,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove input arg `control wires` of `MultiControlledX`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6832",
+      "merged_at": "2025-01-17T22:53:26Z"
+    },
+    {
+      "id": 2790862815,
+      "number": 1040,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Fix `qml.MultiControlledX` usage",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1040",
+      "merged_at": "2025-01-17T22:20:22Z"
+    },
+    {
+      "id": 2788166574,
+      "number": 6829,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove `output_dim` property of `qml.tape.QuantumScript`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6829",
+      "merged_at": "2025-01-15T18:39:02Z"
+    },
+    {
+      "id": 2788126337,
+      "number": 6827,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove qsvt legacy",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6827",
+      "merged_at": "2025-01-15T16:59:28Z"
+    },
+    {
+      "id": 2778760324,
+      "number": 6801,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "hotfix",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6801",
+      "merged_at": "2025-01-09T21:35:17Z"
+    },
+    {
+      "id": 2776043510,
+      "number": 6787,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "[v0.40.0 QA] Qchem doc Improvements",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6787",
+      "merged_at": "2025-01-09T18:03:31Z"
+    },
+    {
+      "id": 2753159461,
+      "number": 6737,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Explicitly convert `prob` interface in `ProbsMP.process_density_matrix`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6737",
+      "merged_at": "2024-12-20T19:48:46Z"
+    },
+    {
+      "id": 2745803051,
+      "number": 6728,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "del all the legacy",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6728",
+      "merged_at": "2024-12-17T20:46:35Z"
+    },
+    {
+      "id": 2713035121,
+      "number": 6659,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add snapshot support for default mixed",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6659",
+      "merged_at": "2024-12-10T20:20:36Z"
+    },
+    {
+      "id": 2715951118,
+      "number": 6665,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add finite shot simulate mixed",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6665",
+      "merged_at": "2024-12-09T20:41:34Z"
+    },
+    {
+      "id": 2652586668,
+      "number": 1263,
+      "repo": "PennyLaneAI/demos",
+      "title": "QubitDevice removed from toplevel, along with their warnings",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1263",
+      "merged_at": "2024-12-05T21:57:25Z"
+    },
+    {
+      "id": 2677037002,
+      "number": 6618,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add simulate of analytic case for DefaultMixedNewAPI",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6618",
+      "merged_at": "2024-12-04T22:50:03Z"
+    },
+    {
+      "id": 2695184658,
+      "number": 6639,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "add `sampling` for `qubit_mixed` module",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6639",
+      "merged_at": "2024-12-04T22:20:19Z"
+    },
+    {
+      "id": 2672494331,
+      "number": 6599,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Implement execution for new default mixed api",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6599",
+      "merged_at": "2024-12-03T23:16:32Z"
+    },
+    {
+      "id": 2695046840,
+      "number": 6637,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "add `measure` for `qubit_mixed` module",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6637",
+      "merged_at": "2024-12-02T16:27:52Z"
+    },
+    {
+      "id": 2703446900,
+      "number": 6651,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Move `get_random_mixed_state` to `conftest.py`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6651",
+      "merged_at": "2024-11-29T15:36:23Z"
+    },
+    {
+      "id": 2672559362,
+      "number": 6601,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "add `default_mixed.DefaultMixedNewAPI.preprocess`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6601",
+      "merged_at": "2024-11-28T16:05:43Z"
+    },
+    {
+      "id": 2673648499,
+      "number": 6607,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add a temporary new class DefaultMixedNewAPI for cleaner development",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6607",
+      "merged_at": "2024-11-20T23:05:25Z"
+    },
+    {
+      "id": 2670114346,
+      "number": 6597,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix doc",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6597",
+      "merged_at": "2024-11-19T00:33:03Z"
+    },
+    {
+      "id": 2645169277,
+      "number": 93,
+      "repo": "PennyLaneAI/plugin-test-matrix",
+      "title": "Remove suppression of some deprecation warnings from plugin test matrix",
+      "url": "https://github.com/PennyLaneAI/plugin-test-matrix/pull/93",
+      "merged_at": "2024-11-18T15:02:11Z"
+    },
+    {
+      "id": 2659667789,
+      "number": 6588,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Move contents of `pennylane.utils` to appropriate modules",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6588",
+      "merged_at": "2024-11-15T21:49:44Z"
+    },
+    {
+      "id": 2656666951,
+      "number": 6584,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove `qml.qinfo`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6584",
+      "merged_at": "2024-11-15T19:49:10Z"
+    },
+    {
+      "id": 2653153975,
+      "number": 6577,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Deprecate `QauntumScript.output_dim`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6577",
+      "merged_at": "2024-11-14T22:07:03Z"
+    },
+    {
+      "id": 2638560919,
+      "number": 6537,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove top-level access to `Device`, `QubitDevice` and `QutritDevice`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6537",
+      "merged_at": "2024-11-13T21:51:40Z"
+    },
+    {
+      "id": 2652341987,
+      "number": 6575,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Rm redundant item from changelog-dev.md",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6575",
+      "merged_at": "2024-11-12T23:42:45Z"
+    },
+    {
+      "id": 2644898351,
+      "number": 6558,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Combined Removals for PL-v0.40 (Yushao)",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6558",
+      "merged_at": "2024-11-12T21:35:21Z"
+    },
+    {
+      "id": 2650252995,
+      "number": 1298,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "delete BasisStatePrepartion in test_template",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/1298",
+      "merged_at": "2024-11-11T20:31:54Z"
+    },
+    {
+      "id": 2641177712,
+      "number": 6545,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "fix docs rendering wrongly in changelog",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6545",
+      "merged_at": "2024-11-08T20:01:47Z"
+    },
+    {
+      "id": 2629624596,
+      "number": 6503,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "init_state part0: dumb StatePrep",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6503",
+      "merged_at": "2024-11-08T19:00:35Z"
+    },
+    {
+      "id": 2579439608,
+      "number": 6379,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Add helper func `apply_operation` for default mixed",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6379",
+      "merged_at": "2024-11-01T22:47:15Z"
+    },
+    {
+      "id": 2629847823,
+      "number": 78,
+      "repo": "PennyLaneAI/pennylane-qulacs",
+      "title": "try changing 3.9 to 3.12 in the file and save it.",
+      "url": "https://github.com/PennyLaneAI/pennylane-qulacs/pull/78",
+      "merged_at": "2024-11-01T21:48:58Z"
+    },
+    {
+      "id": 2622339556,
+      "number": 6479,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Typo fix",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6479",
+      "merged_at": "2024-10-29T21:49:29Z"
+    },
+    {
+      "id": 2609706377,
+      "number": 6437,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Warnings for `two_qubit_unitary`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6437",
+      "merged_at": "2024-10-25T17:46:22Z"
+    },
+    {
+      "id": 2571432153,
+      "number": 6354,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`sample_probs` is extracted out of `sample_state`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6354",
+      "merged_at": "2024-10-11T21:13:41Z"
+    },
+    {
+      "id": 2571242389,
+      "number": 6352,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update measurements.py",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6352",
+      "merged_at": "2024-10-07T20:48:45Z"
+    },
+    {
+      "id": 2564514509,
+      "number": 6330,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "`process_density_matrix` for missing `state_measurements`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/6330",
+      "merged_at": "2024-10-07T16:02:40Z"
+    },
+    {
+      "id": 2344595631,
+      "number": 5830,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Process density matrix",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/5830",
+      "merged_at": "2024-06-25T20:56:21Z"
+    },
+    {
+      "id": 2276831452,
+      "number": 2,
+      "repo": "JerryChen97/speed-reader",
+      "title": "Fix inline eq",
+      "url": "https://github.com/JerryChen97/speed-reader/pull/2",
+      "merged_at": "2024-05-03T03:34:27Z"
+    },
+    {
+      "id": 896160152,
+      "number": 1,
+      "repo": "JerryChen97/Chiral-Spin-Liquid",
+      "title": "Qcm",
+      "url": "https://github.com/JerryChen97/Chiral-Spin-Liquid/pull/1",
+      "merged_at": "2024-01-15T18:02:40Z"
+    },
+    {
+      "id": 702211460,
+      "number": 35,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "Server scripts",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/35",
+      "merged_at": "2020-09-21T20:48:59Z"
+    },
+    {
+      "id": 656761718,
+      "number": 30,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "add higher spins",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/30",
+      "merged_at": "2020-08-10T18:39:24Z"
+    },
+    {
+      "id": 619582119,
+      "number": 27,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "WIP: finite DMRG",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/27",
+      "merged_at": "2020-06-12T01:11:55Z"
+    },
+    {
+      "id": 637414293,
+      "number": 29,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "Temp for psi essay",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/29",
+      "merged_at": "2020-06-12T01:11:54Z"
+    },
+    {
+      "id": 637412985,
+      "number": 28,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "Finite dmrg",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/28",
+      "merged_at": "2020-06-12T01:01:47Z"
+    },
+    {
+      "id": 616320402,
+      "number": 25,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "clear the data",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/25",
+      "merged_at": "2020-05-12T02:58:32Z"
+    },
+    {
+      "id": 610429483,
+      "number": 21,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "WIP: Store psi for the phase diagram",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/21",
+      "merged_at": "2020-05-04T16:27:27Z"
+    },
+    {
+      "id": 604898321,
+      "number": 18,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "WIP: find a reasonable way to store the wave functions",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/18",
+      "merged_at": "2020-04-29T21:02:46Z"
+    },
+    {
+      "id": 601610675,
+      "number": 16,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "add an Ising for testing",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/16",
+      "merged_at": "2020-04-17T21:42:07Z"
+    },
+    {
+      "id": 598538472,
+      "number": 7,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "test",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/7",
+      "merged_at": "2020-04-14T19:04:21Z"
+    },
+    {
+      "id": 599074531,
+      "number": 10,
+      "repo": "JerryChen97/KitaevLadder",
+      "title": "Swap xz",
+      "url": "https://github.com/JerryChen97/KitaevLadder/pull/10",
+      "merged_at": "2020-04-14T19:04:20Z"
+    },
+    {
+      "id": 547277947,
+      "number": 1,
+      "repo": "JerryChen97/MAGMABuilder",
+      "title": "New bb",
+      "url": "https://github.com/JerryChen97/MAGMABuilder/pull/1",
+      "merged_at": "2020-04-09T23:54:44Z"
+    },
+    {
+      "id": 575826447,
+      "number": 4,
+      "repo": "JerryChen97/DifferentialEquation",
+      "title": "Another",
+      "url": "https://github.com/JerryChen97/DifferentialEquation/pull/4",
+      "merged_at": "2020-03-04T22:15:24Z"
+    },
+    {
+      "id": 575819525,
+      "number": 3,
+      "repo": "JerryChen97/DifferentialEquation",
+      "title": "Another",
+      "url": "https://github.com/JerryChen97/DifferentialEquation/pull/3",
+      "merged_at": "2020-03-04T22:05:57Z"
+    },
+    {
+      "id": 575811232,
+      "number": 2,
+      "repo": "JerryChen97/DifferentialEquation",
+      "title": "Another",
+      "url": "https://github.com/JerryChen97/DifferentialEquation/pull/2",
+      "merged_at": "2020-03-04T21:55:06Z"
+    },
+    {
+      "id": 575690323,
+      "number": 1,
+      "repo": "JerryChen97/DifferentialEquation",
+      "title": "Another",
+      "url": "https://github.com/JerryChen97/DifferentialEquation/pull/1",
+      "merged_at": "2020-03-04T19:18:04Z"
+    },
+    {
+      "id": 561854526,
+      "number": 1,
+      "repo": "JerryChen97/Lattices",
+      "title": "Create LICENSE",
+      "url": "https://github.com/JerryChen97/Lattices/pull/1",
+      "merged_at": "2020-02-07T20:26:37Z"
+    },
+    {
+      "id": 241462173,
+      "number": 2,
+      "repo": "JerryChen97/hello-world",
+      "title": "Update README.md",
+      "url": "https://github.com/JerryChen97/hello-world/pull/2",
+      "merged_at": "2017-07-08T15:59:39Z"
+    },
+    {
+      "id": 215608051,
+      "number": 1,
+      "repo": "JerryChen97/hello-world",
+      "title": "Finish README",
+      "url": "https://github.com/JerryChen97/hello-world/pull/1",
+      "merged_at": "2017-03-21T02:12:08Z"
+    }
+  ],
+  "releases": [
+    {
+      "repo": "PennyLaneAI/pennylane",
+      "tag": "v0.45.1",
+      "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.45.1",
+      "published_at": "2026-06-26T21:18:30Z"
+    },
+    {
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "tag": "v0.45.0",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/releases/tag/v0.45.0",
+      "published_at": "2026-05-12T20:42:50Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "tag": "v0.45.0",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/releases/tag/v0.45.0",
+      "published_at": "2026-05-12T20:30:54Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane",
+      "tag": "v0.43.3",
+      "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.43.3",
+      "published_at": "2026-03-11T12:50:36Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane",
+      "tag": "v0.44.1",
+      "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.44.1",
+      "published_at": "2026-03-10T20:20:46Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "tag": "v0.44.1",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/releases/tag/v0.44.1",
+      "published_at": "2026-01-22T22:09:57Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "tag": "v0.44.0",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/releases/tag/v0.44.0",
+      "published_at": "2026-01-13T20:38:33Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane-cirq",
+      "tag": "v0.44.0",
+      "url": "https://github.com/PennyLaneAI/pennylane-cirq/releases/tag/v0.44.0",
+      "published_at": "2026-01-13T20:34:30Z"
+    },
+    {
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "tag": "v0.44.0",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/releases/tag/v0.44.0",
+      "published_at": "2026-01-13T20:30:18Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane-qulacs",
+      "tag": "v0.44.0",
+      "url": "https://github.com/PennyLaneAI/pennylane-qulacs/releases/tag/v0.44.0",
+      "published_at": "2026-01-13T20:25:39Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane-aqt",
+      "tag": "v0.44.0",
+      "url": "https://github.com/PennyLaneAI/pennylane-aqt/releases/tag/v0.44.0",
+      "published_at": "2026-01-13T20:23:56Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane",
+      "tag": "v0.44.0",
+      "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.44.0",
+      "published_at": "2026-01-13T17:38:30Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane",
+      "tag": "v0.43.2",
+      "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.43.2",
+      "published_at": "2025-12-23T17:02:59Z"
+    },
+    {
+      "repo": "PennyLaneAI/pennylane",
+      "tag": "v0.43.1",
+      "url": "https://github.com/PennyLaneAI/pennylane/releases/tag/v0.43.1",
+      "published_at": "2025-11-06T22:53:57Z"
+    }
+  ],
+  "release_repositories": [
+    "JerryChen97/Chiral-Spin-Liquid",
+    "JerryChen97/DifferentialEquation",
+    "JerryChen97/hello-world",
+    "JerryChen97/KitaevLadder",
+    "JerryChen97/Lattices",
+    "JerryChen97/MAGMABuilder",
+    "JerryChen97/solo-learn",
+    "JerryChen97/speed-reader",
+    "JerryChen97/tibo-x-telegram-tracker",
+    "PennyLaneAI/catalyst",
+    "PennyLaneAI/demos",
+    "PennyLaneAI/pennylane",
+    "PennyLaneAI/pennylane-aqt",
+    "PennyLaneAI/pennylane-cirq",
+    "PennyLaneAI/PennyLane-IonQ",
+    "PennyLaneAI/pennylane-lightning",
+    "PennyLaneAI/pennylane-qiskit",
+    "PennyLaneAI/PennyLane-qsharp",
+    "PennyLaneAI/pennylane-qulacs",
+    "PennyLaneAI/plugin-test-matrix",
+    "PennyLaneAI/sphinx-action",
+    "XanaduAI/iqpopt"
+  ]
+}

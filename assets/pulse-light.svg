@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="674" viewBox="0 0 1000 674" role="img" aria-labelledby="title desc">
+<title id="title">Jerry Chen — public open-source contributions</title>
+<desc id="desc">All-time public repository activity across PennyLaneAI, XanaduAI and JerryChen97. 585 commits, 399 merged, 1,194 reviewed, 14 releases. Monthly bars show merged pull requests. Detailed sources and definitions follow in the README.</desc>
+<rect x="1" y="1" width="998" height="672" rx="22" fill="#f3fbfd" stroke="#d3e6ec"/>
+<g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<text x="32" y="36" font-size="12" font-weight="700" fill="#087e8b" text-anchor="start">PUBLIC WORK / ALL TIME</text>
+<text x="32" y="76" font-size="30" font-weight="700" fill="#123047" text-anchor="start">Open-source footprint</text>
+<text x="968" y="36" font-size="11" font-weight="400" fill="#50687b" text-anchor="end">UPDATED 2026-09-22 UTC</text>
+<text x="32" y="104" font-size="16" font-weight="400" fill="#50687b" text-anchor="start">PennyLaneAI  ·  XanaduAI  ·  Personal repositories</text>
+<rect x="32" y="130" width="222" height="108" rx="12" fill="#ffffff" stroke="#d3e6ec"/>
+<text x="50" y="178" font-size="35" font-weight="700" fill="#087e8b" text-anchor="start">585</text>
+<text x="50" y="213" font-size="16" font-weight="400" fill="#50687b" text-anchor="start">Authored commits</text>
+<rect x="270" y="130" width="222" height="108" rx="12" fill="#ffffff" stroke="#d3e6ec"/>
+<text x="288" y="178" font-size="35" font-weight="700" fill="#087e8b" text-anchor="start">399</text>
+<text x="288" y="213" font-size="16" font-weight="400" fill="#50687b" text-anchor="start">Merged PRs</text>
+<rect x="508" y="130" width="222" height="108" rx="12" fill="#ffffff" stroke="#d3e6ec"/>
+<text x="526" y="178" font-size="35" font-weight="700" fill="#087e8b" text-anchor="start">1,194</text>
+<text x="526" y="213" font-size="16" font-weight="400" fill="#50687b" text-anchor="start">PRs reviewed</text>
+<rect x="746" y="130" width="222" height="108" rx="12" fill="#ffffff" stroke="#d3e6ec"/>
+<text x="764" y="178" font-size="35" font-weight="700" fill="#087e8b" text-anchor="start">14</text>
+<text x="764" y="213" font-size="16" font-weight="400" fill="#50687b" text-anchor="start">Releases published</text>
+<text x="32" y="281" font-size="12" font-weight="700" fill="#50687b" text-anchor="start">WHERE THE WORK HAPPENS</text>
+<text x="492" y="281" font-size="11" font-weight="600" fill="#50687b" text-anchor="end">COMMITS</text>
+<text x="648" y="281" font-size="11" font-weight="600" fill="#50687b" text-anchor="end">MERGED PRs</text>
+<text x="806" y="281" font-size="11" font-weight="600" fill="#50687b" text-anchor="end">PRs REVIEWED</text>
+<text x="958" y="281" font-size="11" font-weight="600" fill="#50687b" text-anchor="end">RELEASES</text>
+<circle cx="40" cy="311" r="5" fill="#0891b2"/>
+<text x="54" y="316" font-size="16" font-weight="600" fill="#123047" text-anchor="start">PennyLaneAI</text>
+<text x="492" y="316" font-size="17" font-weight="600" fill="#123047" text-anchor="end">313</text>
+<text x="648" y="316" font-size="17" font-weight="600" fill="#123047" text-anchor="end">367</text>
+<text x="806" y="316" font-size="17" font-weight="600" fill="#123047" text-anchor="end">1,194</text>
+<text x="958" y="316" font-size="17" font-weight="600" fill="#123047" text-anchor="end">14</text>
+<circle cx="40" cy="349" r="5" fill="#7c3aed"/>
+<text x="54" y="354" font-size="16" font-weight="600" fill="#123047" text-anchor="start">XanaduAI</text>
+<text x="492" y="354" font-size="17" font-weight="600" fill="#123047" text-anchor="end">2</text>
+<text x="648" y="354" font-size="17" font-weight="600" fill="#123047" text-anchor="end">2</text>
+<text x="806" y="354" font-size="17" font-weight="600" fill="#123047" text-anchor="end">0</text>
+<text x="958" y="354" font-size="17" font-weight="600" fill="#123047" text-anchor="end">0</text>
+<circle cx="40" cy="387" r="5" fill="#0d9488"/>
+<text x="54" y="392" font-size="16" font-weight="600" fill="#123047" text-anchor="start">Personal / JerryChen97</text>
+<text x="492" y="392" font-size="17" font-weight="600" fill="#123047" text-anchor="end">270</text>
+<text x="648" y="392" font-size="17" font-weight="600" fill="#123047" text-anchor="end">30</text>
+<text x="806" y="392" font-size="17" font-weight="600" fill="#123047" text-anchor="end">0</text>
+<text x="958" y="392" font-size="17" font-weight="600" fill="#123047" text-anchor="end">0</text>
+<path d="M32 416H968" stroke="#d3e6ec"/>
+<text x="32" y="447" font-size="12" font-weight="700" fill="#50687b" text-anchor="start">MERGED PULL REQUESTS</text>
+<text x="968" y="447" font-size="12" font-weight="400" fill="#50687b" text-anchor="end">2025-10 — 2026-09 · current month in progress</text>
+<rect x="46" y="563.68" width="60" height="20.32" fill="#0891b2"/>
+<rect x="46" y="558.59" width="60" height="5.08" fill="#7c3aed"/>
+<text x="76" y="550" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">10</text>
+<text x="76" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Oct</text>
+<rect x="123" y="553.51" width="60" height="30.49" fill="#0891b2"/>
+<text x="153" y="545" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">12</text>
+<text x="153" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Nov</text>
+<rect x="200" y="523.03" width="60" height="60.97" fill="#0891b2"/>
+<text x="230" y="514" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">24</text>
+<text x="230" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Dec</text>
+<rect x="277" y="490.00" width="60" height="94.00" fill="#0891b2"/>
+<text x="307" y="481" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">37</text>
+<text x="307" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Jan</text>
+<rect x="354" y="573.84" width="60" height="10.16" fill="#0891b2"/>
+<text x="384" y="565" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">4</text>
+<text x="384" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Feb</text>
+<rect x="431" y="550.97" width="60" height="33.03" fill="#0891b2"/>
+<text x="461" y="542" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">13</text>
+<text x="461" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Mar</text>
+<rect x="508" y="566.22" width="60" height="17.78" fill="#0891b2"/>
+<text x="538" y="557" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">7</text>
+<text x="538" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Apr</text>
+<rect x="585" y="520.49" width="60" height="63.51" fill="#0891b2"/>
+<text x="615" y="511" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">25</text>
+<text x="615" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">May</text>
+<rect x="662" y="535.73" width="60" height="48.27" fill="#0891b2"/>
+<text x="692" y="527" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">19</text>
+<text x="692" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Jun</text>
+<rect x="739" y="512.86" width="60" height="71.14" fill="#0891b2"/>
+<rect x="739" y="502.70" width="60" height="10.16" fill="#0d9488"/>
+<text x="769" y="494" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">32</text>
+<text x="769" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Jul</text>
+<rect x="816" y="538.27" width="60" height="45.73" fill="#0891b2"/>
+<text x="846" y="529" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">18</text>
+<text x="846" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Aug</text>
+<rect x="893" y="568.76" width="60" height="15.24" fill="#0891b2"/>
+<text x="923" y="560" font-size="12" font-weight="400" fill="#50687b" text-anchor="middle">6</text>
+<text x="923" y="610" font-size="13" font-weight="400" fill="#50687b" text-anchor="middle">Sep</text>
+<text x="32" y="648" font-size="13" font-weight="400" fill="#50687b" text-anchor="start">Public records only · Counts overlap · Sources and metric definitions below</text>
+</g>
+</svg>
