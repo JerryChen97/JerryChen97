@@ -2,12 +2,10 @@
 """Build profile assets from public repository records, using only the standard library."""
 
 import argparse
-import calendar
 import html
 import json
 import os
 from pathlib import Path
-import re
 import time
 from datetime import date, datetime, timedelta, timezone
 from urllib.error import HTTPError, URLError
@@ -26,6 +24,8 @@ EXTRA_RELEASE_REPOS = (
 )
 START = "<!-- PULSE:START -->"
 END = "<!-- PULSE:END -->"
+METRICS = (("commits", "Authored commits"), ("merged", "Merged PRs"),
+           ("reviewed", "PRs reviewed"), ("releases", "Releases published"))
 
 
 class GitHub:
@@ -124,11 +124,6 @@ def query_for(owner, metric):
     return f"is:public {scope} {filters[metric]}"
 
 
-def search_url(owner, metric):
-    return "https://github.com/search?" + urlencode({"q": query_for(owner, metric),
-                                                    "type": "commits" if metric == "commits" else "pullrequests"})
-
-
 def simplify_pr(item, owner):
     repo = item["repository_url"].removeprefix("https://api.github.com/repos/")
     if repo.split("/")[0].lower() != owner.lower() or "pull_request" not in item:
@@ -167,145 +162,48 @@ def collect(api, today):
             "release_repositories": sorted(release_repos, key=str.lower)}
 
 
-def months(data):
-    today = date.fromisoformat(data["as_of"])
-    end = today.year * 12 + today.month - 1
-    series = []
-    for value in range(end - 11, end + 1):
-        year, month = value // 12, value % 12 + 1
-        key = f"{year:04d}-{month:02d}"
-        counts = [sum(pr["repo"].split("/")[0].lower() == owner.lower()
-                      and pr["merged_at"][:7] == key for pr in data["merged_prs"]) for owner in OWNERS]
-        series.append({"month": key, "label": calendar.month_abbr[month], "counts": counts})
-    return series
-
-
 def totals(data):
     return {key: sum(group[key] for group in data["groups"])
             for key in ("commits", "merged", "reviewed", "releases")}
 
 
+def description(data):
+    sums = totals(data)
+    return "All-time totals from tracked public repositories: " + "; ".join(
+        f"{sums[key]:,} {label.lower()}" for key, label in METRICS) + "."
+
+
 def svg(data, dark=False):
     p = ({"bg": "#0b1523", "card": "#132235", "ink": "#edf6fc", "muted": "#a0b5c8", "line": "#2b4054",
-          "accent": "#67e8f9", "bar": "#22d3ee", "purple": "#c4b5fd", "green": "#5eead4"} if dark else
+          "accent": "#67e8f9"} if dark else
          {"bg": "#f3fbfd", "card": "#ffffff", "ink": "#123047", "muted": "#50687b", "line": "#d3e6ec",
-          "accent": "#087e8b", "bar": "#0891b2", "purple": "#7c3aed", "green": "#0d9488"})
-    out = ['<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="674" viewBox="0 0 1000 674" role="img" aria-labelledby="title desc">',
-           '<title id="title">Jerry Chen — public open-source contributions</title>',
-           '<desc id="desc">All-time public repository activity across PennyLaneAI, XanaduAI and JerryChen97. '
-           + html.escape(", ".join(f"{value:,} {key}" for key, value in totals(data).items()))
-           + '. Monthly bars show merged pull requests. Detailed sources and definitions follow in the README.</desc>',
-           f'<rect x="1" y="1" width="998" height="672" rx="22" fill="{p["bg"]}" stroke="{p["line"]}"/>',
+          "accent": "#087e8b"})
+    out = ['<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-labelledby="title desc">',
+           '<title id="title">GitHub Pulse — overall totals</title>',
+           '<desc id="desc">' + html.escape(description(data)) + '</desc>',
+           f'<rect x="1" y="1" width="998" height="198" rx="18" fill="{p["bg"]}" stroke="{p["line"]}"/>',
            '<g font-family="Segoe UI, Helvetica, Arial, sans-serif">']
 
     def text(x, y, value, size=16, fill=None, weight=400, anchor="start"):
         out.append(f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" fill="{fill or p["ink"]}" text-anchor="{anchor}">{html.escape(str(value))}</text>')
 
-    text(32, 36, "PUBLIC WORK / ALL TIME", 12, p["accent"], 700)
-    text(32, 76, "Open-source footprint", 30, weight=700)
-    text(968, 36, "UPDATED " + data["as_of"] + " UTC", 11, p["muted"], anchor="end")
-    text(32, 104, "PennyLaneAI  ·  XanaduAI  ·  Personal repositories", 16, p["muted"])
-    metrics = (("commits", "Authored commits"), ("merged", "Merged PRs"),
-               ("reviewed", "PRs reviewed"), ("releases", "Releases published"))
+    text(28, 32, "TRACKED PUBLIC ACTIVITY / ALL TIME", 13, p["accent"], 700)
+    text(972, 32, "UPDATED " + data["as_of"] + " UTC", 12, p["muted"], anchor="end")
     sums = totals(data)
-    for index, (key, label) in enumerate(metrics):
-        x = 32 + 238 * index
-        out.append(f'<rect x="{x}" y="130" width="222" height="108" rx="12" fill="{p["card"]}" stroke="{p["line"]}"/>')
-        text(x + 18, 178, f"{sums[key]:,}", 35, p["accent"], 700)
-        text(x + 18, 213, label, 16, p["muted"])
-    text(32, 281, "WHERE THE WORK HAPPENS", 12, p["muted"], 700)
-    for x, label in ((492, "COMMITS"), (648, "MERGED PRs"), (806, "PRs REVIEWED"), (958, "RELEASES")):
-        text(x, 281, label, 11, p["muted"], 600, "end")
-    colors = (p["bar"], p["purple"], p["green"])
-    for index, group in enumerate(data["groups"]):
-        y = 316 + index * 38
-        out.append(f'<circle cx="40" cy="{y-5}" r="5" fill="{colors[index]}"/>')
-        text(54, y, group["owner"] if group["owner"] != USER else "Personal / JerryChen97", 16, weight=600)
-        for x, key in ((492, "commits"), (648, "merged"), (806, "reviewed"), (958, "releases")):
-            text(x, y, f'{group[key]:,}', 17, weight=600, anchor="end")
-    out.append(f'<path d="M32 416H968" stroke="{p["line"]}"/>')
-    text(32, 447, "MERGED PULL REQUESTS", 12, p["muted"], 700)
-    series = months(data)
-    period = series[0]["month"] + " — " + series[-1]["month"]
-    text(968, 447, period + " · current month in progress", 12, p["muted"], anchor="end")
-    maximum = max(1, max(sum(month["counts"]) for month in series))
-    for index, month in enumerate(series):
-        x = 46 + index * 77
-        total = sum(month["counts"])
-        y = 584
-        for count, color in zip(month["counts"], colors):
-            height = 94 * count / maximum
-            y -= height
-            if height:
-                out.append(f'<rect x="{x}" y="{y:.2f}" width="60" height="{height:.2f}" fill="{color}"/>')
-        text(x + 30, round(y - 9), total, 12, p["muted"], anchor="middle")
-        text(x + 30, 610, month["label"], 13, p["muted"], anchor="middle")
-    text(32, 648, "Public records only · Counts overlap · Sources and metric definitions below", 13, p["muted"])
+    for index, (key, label) in enumerate(METRICS):
+        x = 28 + 240 * index
+        out.append(f'<rect x="{x}" y="52" width="224" height="120" rx="12" fill="{p["card"]}" stroke="{p["line"]}"/>')
+        text(x + 18, 111, f"{sums[key]:,}", 46, p["accent"], 700)
+        text(x + 18, 147, label, 19, p["muted"])
     out.extend(["</g>", "</svg>"])
     return "\n".join(out) + "\n"
-
-
-def safe_text(value):
-    value = " ".join(str(value).split())
-    value = html.escape(value, quote=False).replace("|", "&#124;")
-    return re.sub(r"([\\`*_{}\[\]])", r"\\\1", value)
-
-
-def safe_url(value):
-    if not value.startswith("https://github.com/"):
-        raise ValueError("Only public GitHub links are allowed")
-    return value.replace("(", "%28").replace(")", "%29").replace(" ", "%20")
-
-
-def link(label, url):
-    return f"[{safe_text(label)}]({safe_url(url)})"
 
 
 def readme_section(data):
     lines = [START, '<picture>',
              '  <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg" />',
-             '  <img src="./assets/pulse-light.svg" width="100%" alt="Public contributions across PennyLaneAI, XanaduAI and JerryChen97; accessible figures and sources follow below." />',
-             '</picture>', '',
-             'Public work across **PennyLaneAI**, **XanaduAI**, and my personal repositories. '
-             'Counts come directly from public repository records and include all available history.', '',
-             '<details>', '<summary>Explore the numbers and sources</summary>', '',
-             '| Repository owner | Authored commits | Merged PRs | PRs reviewed | Releases published |',
-             '| :--- | ---: | ---: | ---: | ---: |']
-    for group in data["groups"]:
-        owner = group["owner"]
-        cells = [link(owner, f"https://github.com/{owner}")]
-        cells.extend(link(f'{group[key]:,}', search_url(owner, key)) for key in ("commits", "merged", "reviewed"))
-        cells.append(f'[{group["releases"]:,}](./data/pulse.json)')
-        lines.append("| " + " | ".join(cells) + " |")
-    lines += ['', '**Monthly merged PRs** — the current month is still in progress.', '',
-              '| Month (UTC) | PennyLaneAI | XanaduAI | Personal |', '| :--- | ---: | ---: | ---: |']
-    for month in months(data):
-        lines.append('| ' + ' | '.join([month["month"]] + [str(c) for c in month["counts"]]) + ' |')
-    lines += ['', 'Commits are non-merge commits indexed on default branches. Reviews count distinct PRs reviewed, '
-              'excluding my own PRs. Releases count public releases authored by my account in the tracked repositories. '
-              'These metrics overlap and are not a combined contribution total. Private work is excluded.', '',
-              f'Updated **{data["as_of"]} UTC** · [How this is counted](./docs/pulse.md) · [Public data](./data/pulse.json)',
-              '', '</details>', '', '### Recent contributions', '',
-              '| Merged (UTC) | Project | Contribution |', '| :--- | :--- | :--- |']
-    for pr in data["merged_prs"][:5]:
-        lines.append(f'| {pr["merged_at"][:10]} | {link(pr["repo"], "https://github.com/" + pr["repo"])} | '
-                     + link(f'{pr["title"]} #{pr["number"]}', pr["url"]) + ' |')
-    if not data["merged_prs"]:
-        lines.append('| — | — | No public merged PRs found in this scope. |')
-    lines += ['', '### Recent releases published', '', '| Published (UTC) | Project | Release |', '| :--- | :--- | :--- |']
-    # Feature different projects, instead of filling this list with one package's tags.
-    seen = set()
-    for release in data["releases"]:
-        if release["repo"] in seen:
-            continue
-        seen.add(release["repo"])
-        lines.append(f'| {release["published_at"][:10]} | {link(release["repo"], "https://github.com/" + release["repo"])} | '
-                     + link(release["tag"], release["url"]) + ' |')
-        if len(seen) == 4:
-            break
-    if not seen:
-        lines.append('| — | — | No public releases published by this account in tracked repositories. |')
-    lines += ['', END]
+             '  <img src="./assets/pulse-light.svg" width="100%" alt="' + html.escape(description(data), quote=True) + '" />',
+             '</picture>', END]
     return "\n".join(lines)
 
 

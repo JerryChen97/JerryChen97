@@ -14,8 +14,7 @@ private organization data. It covers repositories owned by **PennyLaneAI**,
   across repositories. A commit appearing in multiple repositories can count
   more than once. Unmerged branch work is not included.
 - **Merged PRs:** public pull requests authored by JerryChen97 and merged in
-  the listed owners' repositories. The monthly chart uses `merged_at` in UTC,
-  including the current partial month.
+  the listed owners' repositories.
 - **PRs reviewed:** distinct public pull requests matching
   `reviewed-by:JerryChen97 -author:JerryChen97`. Several reviews of one PR count
   once. Review requests and ordinary comments are not counted as reviews.
@@ -33,9 +32,8 @@ Zero means no matching public records were returned for that metric and scope;
 it says nothing about private work. Search indexing can lag recent activity.
 API access controls still apply; this does not bypass organization policies.
 
-The README's expandable source table links directly to the commit and PR
-searches. Recent PRs are sorted by merge date. The release highlights show the
-latest authored release from each of four different projects.
+The README presents only the four overall totals. The underlying public
+snapshot remains in `data/pulse.json` for reproducibility.
 
 ## Refresh and maintenance
 
@@ -70,11 +68,11 @@ the last snapshot offline:
 python scripts/pulse.py --from-data data/pulse.json
 ```
 
-Edit `OWNERS` and `EXTRA_RELEASE_REPOS` in `scripts/pulse.py` to change scope
-(the design currently has three owner rows). Manual README content belongs
+Edit `OWNERS` and `EXTRA_RELEASE_REPOS` in `scripts/pulse.py` to change scope.
+Manual README content belongs
 outside the `PULSE:START` / `PULSE:END` markers. Generated assets are plain SVG
-with light and dark variants; the expandable tables also expose the data as
-text for accessibility and narrow screens.
+with light and dark variants. Image alternative text includes the overall
+totals for accessibility.
 
 ## GitHub references
 

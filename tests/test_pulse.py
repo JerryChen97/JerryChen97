@@ -97,15 +97,6 @@ class SearchTests(unittest.TestCase):
 
 
 class OutputTests(unittest.TestCase):
-    def test_months_cross_year_boundary_and_use_merge_date(self):
-        data = snapshot()
-        result = pulse.months(data)
-        self.assertEqual(len(result), 12)
-        self.assertEqual(result[0]["month"], "2025-02")
-        self.assertEqual(result[-1]["month"], "2026-01")
-        self.assertEqual(result[-1]["counts"], [1, 0, 0])
-        self.assertEqual(sum(sum(month["counts"]) for month in result), 1)
-
     def test_manual_readme_content_is_preserved(self):
         original = "Manual intro\n" + pulse.START + "\nold\n" + pulse.END + "\nManual footer\n"
         output = pulse.update_readme(original, snapshot())
@@ -115,31 +106,12 @@ class OutputTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             pulse.update_readme("no markers", snapshot())
 
-    def test_untrusted_titles_are_escaped(self):
-        result = pulse.readme_section(snapshot())
-        self.assertIn("Fix &#124; &lt;tag&gt; \\[link\\]", result)
-        self.assertNotIn("<tag>", result)
-        with self.assertRaises(ValueError):
-            pulse.link("bad", "javascript:alert(1)")
-
     def test_svg_is_valid_with_empty_and_real_series(self):
         for data in (snapshot(), {**snapshot(), "merged_prs": []}):
             for dark in (False, True):
                 root = ET.fromstring(pulse.svg(data, dark))
-                self.assertEqual(root.attrib["viewBox"], "0 0 1000 674")
+                self.assertEqual(root.attrib["viewBox"], "0 0 1000 200")
                 self.assertNotIn("nan", pulse.svg(data, dark))
-
-    def test_release_highlights_are_distinct_projects(self):
-        data = snapshot()
-        for i, repo in enumerate(["a", "a", "b", "c", "d", "e"]):
-            data["releases"].append({"repo": "PennyLaneAI/" + repo, "tag": f"v{i}",
-                                     "url": "https://github.com/PennyLaneAI/" + repo + f"/releases/tag/v{i}",
-                                     "published_at": "2026-01-01T00:00:00Z"})
-        rendered = pulse.readme_section(data)
-        self.assertIn("[v0]", rendered)
-        self.assertNotIn("[v1]", rendered)
-        self.assertIn("[v4]", rendered)
-        self.assertNotIn("[v5]", rendered)
 
 
 if __name__ == "__main__":
