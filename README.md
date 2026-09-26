@@ -40,6 +40,6 @@
 <!-- PULSE:START -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg" />
-  <img src="./assets/pulse-light.svg" width="100%" alt="All-time totals from tracked public repositories: 587 authored commits; 399 merged prs; 1,200 prs reviewed; 14 releases published." />
+  <img src="./assets/pulse-light.svg" width="100%" alt="All-time totals from tracked public repositories: 587 authored commits; 399 merged prs; 1,201 prs reviewed; 14 releases published." />
 </picture>
 <!-- PULSE:END -->
