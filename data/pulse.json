@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-29",
+  "as_of": "2026-09-30",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 313,
-      "merged": 367,
-      "reviewed": 1206,
+      "commits": 315,
+      "merged": 369,
+      "reviewed": 1208,
       "releases": 14
     },
     {
@@ -26,6 +26,22 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5618123943,
+      "number": 10211,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix hardcoded URLs in `CONTRIBUTING.md`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10211",
+      "merged_at": "2026-09-29T17:17:56Z"
+    },
+    {
+      "id": 5574472131,
+      "number": 10193,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove TensorFlow section from Gradients and training page",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10193",
+      "merged_at": "2026-09-29T15:03:39Z"
+    },
     {
       "id": 5502495567,
       "number": 3243,
