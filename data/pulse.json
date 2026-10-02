@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-01",
+  "as_of": "2026-10-02",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 316,
-      "merged": 370,
-      "reviewed": 1209,
+      "commits": 318,
+      "merged": 372,
+      "reviewed": 1215,
       "releases": 14
     },
     {
@@ -26,6 +26,22 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5663552954,
+      "number": 10244,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "ci: include nightly suffix in bump commit messages",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10244",
+      "merged_at": "2026-10-02T02:42:20Z"
+    },
+    {
+      "id": 5636638070,
+      "number": 10229,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Drop TensorFlow",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10229",
+      "merged_at": "2026-10-01T20:59:54Z"
+    },
     {
       "id": 5619193681,
       "number": 10214,
