@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-02",
+  "as_of": "2026-10-03",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 318,
-      "merged": 372,
+      "commits": 321,
+      "merged": 375,
       "reviewed": 1215,
       "releases": 14
     },
@@ -26,6 +26,30 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5668750425,
+      "number": 10249,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove the `qp.qaoa` module",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10249",
+      "merged_at": "2026-10-02T20:59:25Z"
+    },
+    {
+      "id": 5682059749,
+      "number": 10258,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Lift xfail of QROM tests after Catalyst bump",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10258",
+      "merged_at": "2026-10-02T20:05:18Z"
+    },
+    {
+      "id": 5678854924,
+      "number": 3295,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "ci: include nightly suffix in bump commit messages",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3295",
+      "merged_at": "2026-10-02T16:10:35Z"
+    },
     {
       "id": 5663552954,
       "number": 10244,
