@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-04",
+  "as_of": "2026-10-05",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 321,
-      "merged": 375,
-      "reviewed": 1215,
+      "commits": 322,
+      "merged": 376,
+      "reviewed": 1218,
       "releases": 14
     },
     {
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5681650495,
+      "number": 10256,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Revert \"Remove the pennylane.noise module (#10214)\"",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10256",
+      "merged_at": "2026-10-05T14:45:12Z"
+    },
     {
       "id": 5668750425,
       "number": 10249,
