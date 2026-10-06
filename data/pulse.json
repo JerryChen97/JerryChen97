@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-05",
+  "as_of": "2026-10-06",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 322,
-      "merged": 376,
+      "commits": 323,
+      "merged": 377,
       "reviewed": 1218,
       "releases": 14
     },
@@ -19,13 +19,21 @@
     },
     {
       "owner": "JerryChen97",
-      "commits": 272,
+      "commits": 273,
       "merged": 30,
       "reviewed": 0,
       "releases": 0
     }
   ],
   "merged_prs": [
+    {
+      "id": 5669682414,
+      "number": 10253,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Speed up SpecialUnitary.compute_matrix for more than five wires",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10253",
+      "merged_at": "2026-10-06T15:50:48Z"
+    },
     {
       "id": 5681650495,
       "number": 10256,
