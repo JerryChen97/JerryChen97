@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-07",
+  "as_of": "2026-10-08",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 323,
-      "merged": 377,
+      "commits": 325,
+      "merged": 379,
       "reviewed": 1219,
       "releases": 14
     },
@@ -26,6 +26,22 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5751259028,
+      "number": 3313,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Promote IQPEmbedding template test to capture qjit",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3313",
+      "merged_at": "2026-10-08T16:20:28Z"
+    },
+    {
+      "id": 5633424534,
+      "number": 10221,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Migrate IQPEmbedding to Operator2",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10221",
+      "merged_at": "2026-10-07T20:07:45Z"
+    },
     {
       "id": 5669682414,
       "number": 10253,
