@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-08",
+  "as_of": "2026-10-09",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 325,
-      "merged": 379,
-      "reviewed": 1219,
+      "commits": 326,
+      "merged": 380,
+      "reviewed": 1222,
       "releases": 14
     },
     {
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5349513474,
+      "number": 10114,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "chore: more `apply` from `queueing` to `core` module",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10114",
+      "merged_at": "2026-10-08T19:28:18Z"
+    },
     {
       "id": 5751259028,
       "number": 3313,
