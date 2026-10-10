@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-09",
+  "as_of": "2026-10-10",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 326,
-      "merged": 380,
-      "reviewed": 1222,
+      "commits": 327,
+      "merged": 381,
+      "reviewed": 1226,
       "releases": 14
     },
     {
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5768089200,
+      "number": 10301,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix kwarg capture bug",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10301",
+      "merged_at": "2026-10-09T18:28:43Z"
+    },
     {
       "id": 5349513474,
       "number": 10114,
