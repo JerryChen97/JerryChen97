@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-23",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 327,
-      "merged": 381,
-      "reviewed": 1234,
+      "commits": 332,
+      "merged": 387,
+      "reviewed": 1239,
       "releases": 14
     },
     {
@@ -26,6 +26,54 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5987872961,
+      "number": 724,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Fix GlobalPhase compatibility with PennyLane main",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/724",
+      "merged_at": "2026-10-22T23:00:35Z"
+    },
+    {
+      "id": 5971457001,
+      "number": 3385,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Handle None attributes in on-demand Python decomposition",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3385",
+      "merged_at": "2026-10-22T15:01:53Z"
+    },
+    {
+      "id": 5948060358,
+      "number": 3373,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Support dynamic control values in captured qp.ctrl",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3373",
+      "merged_at": "2026-10-21T19:11:16Z"
+    },
+    {
+      "id": 5964405902,
+      "number": 10367,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Restore Python truth-value conversion for control values",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10367",
+      "merged_at": "2026-10-21T17:12:10Z"
+    },
+    {
+      "id": 5930855057,
+      "number": 10356,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix mixed control values in qjit capture",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10356",
+      "merged_at": "2026-10-21T15:31:01Z"
+    },
+    {
+      "id": 5889778338,
+      "number": 10344,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Clean up git ignore",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10344",
+      "merged_at": "2026-10-21T15:07:03Z"
+    },
     {
       "id": 5768089200,
       "number": 10301,
