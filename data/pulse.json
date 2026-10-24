@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-23",
+  "as_of": "2026-10-24",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 332,
-      "merged": 387,
+      "commits": 335,
+      "merged": 391,
       "reviewed": 1239,
       "releases": 14
     },
@@ -26,6 +26,38 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6004896662,
+      "number": 1878,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix stable IBM demo dependency resolution",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1878",
+      "merged_at": "2026-10-23T20:52:47Z"
+    },
+    {
+      "id": 5986283311,
+      "number": 723,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Bump qiskit-ibm-runtime to 0.50.0",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/723",
+      "merged_at": "2026-10-23T20:37:14Z"
+    },
+    {
+      "id": 5963835399,
+      "number": 10366,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix flaky molecular dipole eigenvalue test",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10366",
+      "merged_at": "2026-10-23T19:12:07Z"
+    },
+    {
+      "id": 5735066466,
+      "number": 1870,
+      "repo": "PennyLaneAI/demos",
+      "title": "Mark QAOA demos as non-executable",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1870",
+      "merged_at": "2026-10-23T16:46:21Z"
+    },
     {
       "id": 5987872961,
       "number": 724,
