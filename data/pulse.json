@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
       "commits": 335,
       "merged": 391,
-      "reviewed": 1241,
+      "reviewed": 1243,
       "releases": 14
     },
     {
@@ -19,8 +19,8 @@
     },
     {
       "owner": "JerryChen97",
-      "commits": 273,
-      "merged": 30,
+      "commits": 264,
+      "merged": 26,
       "reviewed": 0,
       "releases": 0
     }
@@ -553,38 +553,6 @@
       "title": "Seed three snapshot tests",
       "url": "https://github.com/PennyLaneAI/pennylane/pull/9840",
       "merged_at": "2026-07-15T13:56:55Z"
-    },
-    {
-      "id": 4878930869,
-      "number": 4,
-      "repo": "JerryChen97/tibo-x-telegram-tracker",
-      "title": "Update workflows to Node 24 actions",
-      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/4",
-      "merged_at": "2026-07-14T01:05:24Z"
-    },
-    {
-      "id": 4878833836,
-      "number": 3,
-      "repo": "JerryChen97/tibo-x-telegram-tracker",
-      "title": "Use conservative Telegram caption cap",
-      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/3",
-      "merged_at": "2026-07-14T00:43:14Z"
-    },
-    {
-      "id": 4878690404,
-      "number": 2,
-      "repo": "JerryChen97/tibo-x-telegram-tracker",
-      "title": "Respect Telegram photo caption limit",
-      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/2",
-      "merged_at": "2026-07-14T00:08:23Z"
-    },
-    {
-      "id": 4878590632,
-      "number": 1,
-      "repo": "JerryChen97/tibo-x-telegram-tracker",
-      "title": "Improve Telegram HTTP error reporting",
-      "url": "https://github.com/JerryChen97/tibo-x-telegram-tracker/pull/1",
-      "merged_at": "2026-07-13T23:50:11Z"
     },
     {
       "id": 4778772743,
@@ -3506,7 +3474,6 @@
     "JerryChen97/MAGMABuilder",
     "JerryChen97/solo-learn",
     "JerryChen97/speed-reader",
-    "JerryChen97/tibo-x-telegram-tracker",
     "PennyLaneAI/catalyst",
     "PennyLaneAI/demos",
     "PennyLaneAI/pennylane",
