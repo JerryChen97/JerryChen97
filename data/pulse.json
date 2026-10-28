@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 335,
-      "merged": 391,
-      "reviewed": 1243,
+      "commits": 337,
+      "merged": 393,
+      "reviewed": 1244,
       "releases": 14
     },
     {
@@ -26,6 +26,22 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6063473749,
+      "number": 10402,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove the `qp.kernels` module",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10402",
+      "merged_at": "2026-10-27T19:15:18Z"
+    },
+    {
+      "id": 6063595210,
+      "number": 10403,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix changelog reminder IP allow-list failure",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10403",
+      "merged_at": "2026-10-27T17:57:51Z"
+    },
     {
       "id": 6004896662,
       "number": 1878,
