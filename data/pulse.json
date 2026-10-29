@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 337,
-      "merged": 393,
+      "commits": 338,
+      "merged": 394,
       "reviewed": 1244,
       "releases": 14
     },
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6065471741,
+      "number": 10404,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Reduce CI thread oversubscription and tensor-test process overhead",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10404",
+      "merged_at": "2026-10-28T17:45:53Z"
+    },
     {
       "id": 6063473749,
       "number": 10402,
