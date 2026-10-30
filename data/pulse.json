@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
       "commits": 338,
-      "merged": 394,
+      "merged": 395,
       "reviewed": 1244,
       "releases": 14
     },
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6065103336,
+      "number": 1882,
+      "repo": "PennyLaneAI/demos",
+      "title": "Mark kernel demos as non-executable",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1882",
+      "merged_at": "2026-10-30T12:53:37Z"
+    },
     {
       "id": 6065471741,
       "number": 10404,
