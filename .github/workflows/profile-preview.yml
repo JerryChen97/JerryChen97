@@ -32,6 +32,19 @@ jobs:
         run: python -m pip install -r requirements-preview.txt
       - name: Render offline HTML preview
         run: python scripts/preview_profile.py --output profile-preview
+      - name: Add one-click native preview links to run summary
+        env:
+          PREVIEW_REF: ${{ github.event.pull_request.head.sha || github.sha }}
+        run: |
+          {
+            echo '### One-click GitHub profile preview'
+            echo ''
+            echo "[View rendered README](https://github.com/${GITHUB_REPOSITORY}/blob/${PREVIEW_REF}/README.md)"
+            echo ''
+            echo "[View engineering evidence](https://github.com/${GITHUB_REPOSITORY}/blob/${PREVIEW_REF}/docs/engineering.md)"
+            echo ''
+            echo 'The HTML Artifact is optional; GitHub renders the Markdown and SVG directly at these links.'
+          } >> "${GITHUB_STEP_SUMMARY}"
       - name: Upload browsable preview
         uses: actions/upload-artifact@v4
         with:
