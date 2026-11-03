@@ -19,13 +19,21 @@
     },
     {
       "owner": "JerryChen97",
-      "commits": 264,
-      "merged": 26,
+      "commits": 265,
+      "merged": 27,
       "reviewed": 0,
       "releases": 0
     }
   ],
   "merged_prs": [
+    {
+      "id": 6177103925,
+      "number": 1,
+      "repo": "JerryChen97/JerryChen97",
+      "title": "Refocus profile on open-source engineering and verifiable PRs",
+      "url": "https://github.com/JerryChen97/JerryChen97/pull/1",
+      "merged_at": "2026-11-03T21:19:17Z"
+    },
     {
       "id": 6065103336,
       "number": 1882,
@@ -3501,6 +3509,7 @@
     "JerryChen97/Chiral-Spin-Liquid",
     "JerryChen97/DifferentialEquation",
     "JerryChen97/hello-world",
+    "JerryChen97/JerryChen97",
     "JerryChen97/KitaevLadder",
     "JerryChen97/Lattices",
     "JerryChen97/MAGMABuilder",
