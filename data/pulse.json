@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 338,
-      "merged": 395,
-      "reviewed": 1245,
+      "commits": 339,
+      "merged": 396,
+      "reviewed": 1247,
       "releases": 14
     },
     {
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6230791291,
+      "number": 1885,
+      "repo": "PennyLaneAI/demos",
+      "title": "Fix demo batching with newer jq versions",
+      "url": "https://github.com/PennyLaneAI/demos/pull/1885",
+      "merged_at": "2026-11-05T21:51:29Z"
+    },
     {
       "id": 6177103925,
       "number": 1,
