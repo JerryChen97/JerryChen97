@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 339,
-      "merged": 396,
+      "commits": 342,
+      "merged": 399,
       "reviewed": 1247,
       "releases": 14
     },
@@ -26,6 +26,30 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6245506944,
+      "number": 729,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Check QASM mid-measurements by type instead of name",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/729",
+      "merged_at": "2026-11-06T20:20:54Z"
+    },
+    {
+      "id": 6245506893,
+      "number": 3448,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Make the MidMeasure DAG label test version-independent",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3448",
+      "merged_at": "2026-11-06T20:20:48Z"
+    },
+    {
+      "id": 6229360188,
+      "number": 10457,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Use MidMeasure as the canonical operation name",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10457",
+      "merged_at": "2026-11-06T18:46:23Z"
+    },
     {
       "id": 6230791291,
       "number": 1885,
