@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-12",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 342,
-      "merged": 399,
-      "reviewed": 1255,
+      "commits": 345,
+      "merged": 402,
+      "reviewed": 1256,
       "releases": 14
     },
     {
@@ -26,6 +26,30 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6336494809,
+      "number": 10514,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Show TemporaryAND control values and rounded connectors in circuit drawings",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10514",
+      "merged_at": "2026-11-12T01:02:59Z"
+    },
+    {
+      "id": 6316013931,
+      "number": 10505,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Update MPSPrep documentation for lightning.tensor removal",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10505",
+      "merged_at": "2026-11-11T22:06:31Z"
+    },
+    {
+      "id": 6293109587,
+      "number": 10496,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix MPL drawing of conditional operations",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10496",
+      "merged_at": "2026-11-11T19:16:30Z"
+    },
     {
       "id": 6245506944,
       "number": 729,
