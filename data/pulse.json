@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 346,
-      "merged": 403,
-      "reviewed": 1263,
+      "commits": 348,
+      "merged": 405,
+      "reviewed": 1267,
       "releases": 14
     },
     {
@@ -26,6 +26,22 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6427185053,
+      "number": 10539,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Fix Barrier changelog PR link",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10539",
+      "merged_at": "2026-11-16T18:30:30Z"
+    },
+    {
+      "id": 6360310713,
+      "number": 3476,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix controlled decomposition tests for PennyLane dev152",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3476",
+      "merged_at": "2026-11-16T15:50:13Z"
+    },
     {
       "id": 6360758237,
       "number": 3477,
