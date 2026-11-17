@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-16",
+  "as_of": "2026-11-17",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 348,
-      "merged": 405,
-      "reviewed": 1267,
+      "commits": 352,
+      "merged": 409,
+      "reviewed": 1274,
       "releases": 14
     },
     {
@@ -26,6 +26,38 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 5620518098,
+      "number": 10216,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Non-JAX cleanup for QSVT",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10216",
+      "merged_at": "2026-11-17T17:22:46Z"
+    },
+    {
+      "id": 6290918338,
+      "number": 10494,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Port CPhaseShift to Operator2",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10494",
+      "merged_at": "2026-11-17T16:44:08Z"
+    },
+    {
+      "id": 6427258686,
+      "number": 3481,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Fix Prod2 graph IDs and legacy AutoGraph test",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3481",
+      "merged_at": "2026-11-16T22:46:39Z"
+    },
+    {
+      "id": 6294338637,
+      "number": 10498,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove PyQuil and Qualtran interoperability from qp.io",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10498",
+      "merged_at": "2026-11-16T20:00:50Z"
+    },
     {
       "id": 6427185053,
       "number": 10539,
