@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 352,
-      "merged": 409,
-      "reviewed": 1274,
+      "commits": 353,
+      "merged": 410,
+      "reviewed": 1276,
       "releases": 14
     },
     {
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6450554939,
+      "number": 3494,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Bump Black to 26.10.1 to match PennyLane",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3494",
+      "merged_at": "2026-11-17T21:51:46Z"
+    },
     {
       "id": 5620518098,
       "number": 10216,
