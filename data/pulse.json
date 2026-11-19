@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 353,
-      "merged": 410,
-      "reviewed": 1276,
+      "commits": 355,
+      "merged": 412,
+      "reviewed": 1279,
       "releases": 14
     },
     {
@@ -26,6 +26,22 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6476084348,
+      "number": 202,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "Use resources_from_tape for tracker resources",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/202",
+      "merged_at": "2026-11-18T21:52:39Z"
+    },
+    {
+      "id": 6476085806,
+      "number": 112,
+      "repo": "PennyLaneAI/pennylane-aqt",
+      "title": "Remove use of removed qp.Configuration",
+      "url": "https://github.com/PennyLaneAI/pennylane-aqt/pull/112",
+      "merged_at": "2026-11-18T21:52:24Z"
+    },
     {
       "id": 6450554939,
       "number": 3494,
