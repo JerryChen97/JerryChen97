@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 355,
-      "merged": 412,
-      "reviewed": 1282,
+      "commits": 357,
+      "merged": 414,
+      "reviewed": 1286,
       "releases": 14
     },
     {
@@ -26,6 +26,22 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6476085068,
+      "number": 117,
+      "repo": "PennyLaneAI/pennylane-qulacs",
+      "title": "Update tests for read-only Operator.data",
+      "url": "https://github.com/PennyLaneAI/pennylane-qulacs/pull/117",
+      "merged_at": "2026-11-20T19:20:42Z"
+    },
+    {
+      "id": 6472948512,
+      "number": 3499,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "[Bump Dep PL-159] Update Catalyst tests for preserved ChangeOpBasis",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3499",
+      "merged_at": "2026-11-20T19:02:52Z"
+    },
     {
       "id": 6476084348,
       "number": 202,
