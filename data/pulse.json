@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-22",
+  "as_of": "2026-11-23",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 357,
-      "merged": 414,
-      "reviewed": 1286,
+      "commits": 358,
+      "merged": 415,
+      "reviewed": 1287,
       "releases": 14
     },
     {
@@ -26,6 +26,14 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6561999963,
+      "number": 3508,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "Refresh APT before installing Graphviz in compatibility CI",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3508",
+      "merged_at": "2026-11-23T15:17:18Z"
+    },
     {
       "id": 6476085068,
       "number": 117,
