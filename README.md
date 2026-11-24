@@ -31,7 +31,7 @@ The dashboard below summarizes **public GitHub records** across PennyLaneAI, Xan
 <!-- PULSE:START -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/pulse-dark.svg" />
-  <img src="./assets/pulse-light.svg" width="100%" alt="All-time totals from tracked public repositories: 625 authored commits; 444 merged prs; 1,287 prs reviewed; 14 releases published." />
+  <img src="./assets/pulse-light.svg" width="100%" alt="All-time totals from tracked public repositories: 625 authored commits; 444 merged prs; 1,290 prs reviewed; 14 releases published." />
 </picture>
 <!-- PULSE:END -->
 
