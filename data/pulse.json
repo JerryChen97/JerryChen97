@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 358,
-      "merged": 415,
-      "reviewed": 1290,
+      "commits": 364,
+      "merged": 421,
+      "reviewed": 1293,
       "releases": 14
     },
     {
@@ -26,6 +26,54 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6590948176,
+      "number": 10593,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Re-land removal of the `pennylane.noise` module",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10593",
+      "merged_at": "2026-11-25T17:19:26Z"
+    },
+    {
+      "id": 6606675589,
+      "number": 10598,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Report Catalyst `PauliMeasure` resources as `PPM-w<n>`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10598",
+      "merged_at": "2026-11-25T15:40:21Z"
+    },
+    {
+      "id": 6591823053,
+      "number": 731,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Remove `load_noise_model` and the `qiskit_noise` entry point",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/731",
+      "merged_at": "2026-11-25T15:35:36Z"
+    },
+    {
+      "id": 6591906812,
+      "number": 732,
+      "repo": "PennyLaneAI/pennylane-qiskit",
+      "title": "Replace removed `OperationRecorder` in tests and use the `qp` alias",
+      "url": "https://github.com/PennyLaneAI/pennylane-qiskit/pull/732",
+      "merged_at": "2026-11-24T21:48:50Z"
+    },
+    {
+      "id": 5655989792,
+      "number": 3289,
+      "repo": "PennyLaneAI/catalyst",
+      "title": "[BREAKING] Host ZNE extrapolators in Catalyst, dropping `pennylane.noise` dependency",
+      "url": "https://github.com/PennyLaneAI/catalyst/pull/3289",
+      "merged_at": "2026-11-24T21:26:36Z"
+    },
+    {
+      "id": 6477991729,
+      "number": 10560,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Support JAX inputs in `qp.grad` and `qp.jacobian` outside `qjit`",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10560",
+      "merged_at": "2026-11-24T21:06:26Z"
+    },
     {
       "id": 6561999963,
       "number": 3508,
