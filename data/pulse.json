@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "user": "JerryChen97",
   "groups": [
     {
       "owner": "PennyLaneAI",
-      "commits": 364,
-      "merged": 421,
-      "reviewed": 1293,
+      "commits": 368,
+      "merged": 425,
+      "reviewed": 1294,
       "releases": 14
     },
     {
@@ -26,6 +26,38 @@
     }
   ],
   "merged_prs": [
+    {
+      "id": 6612691423,
+      "number": 1459,
+      "repo": "PennyLaneAI/pennylane-lightning",
+      "title": "Fix flaky MCM count-key comparison",
+      "url": "https://github.com/PennyLaneAI/pennylane-lightning/pull/1459",
+      "merged_at": "2026-11-26T17:45:28Z"
+    },
+    {
+      "id": 6630634685,
+      "number": 10609,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Allow PauliMeasure in QROM test gate sets",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10609",
+      "merged_at": "2026-11-26T16:49:13Z"
+    },
+    {
+      "id": 6610485912,
+      "number": 203,
+      "repo": "PennyLaneAI/PennyLane-IonQ",
+      "title": "Replace BooleanFn in device stopping condition",
+      "url": "https://github.com/PennyLaneAI/PennyLane-IonQ/pull/203",
+      "merged_at": "2026-11-26T14:44:17Z"
+    },
+    {
+      "id": 6610413954,
+      "number": 10601,
+      "repo": "PennyLaneAI/pennylane",
+      "title": "Remove BooleanFn and is_trainable",
+      "url": "https://github.com/PennyLaneAI/pennylane/pull/10601",
+      "merged_at": "2026-11-25T19:48:44Z"
+    },
     {
       "id": 6590948176,
       "number": 10593,
